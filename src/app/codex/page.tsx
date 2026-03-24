@@ -1,0 +1,89 @@
+'use client';
+
+import { useState } from 'react';
+import data from '@/data/philosophers.json';
+import { Philosopher, Era } from '@/lib/types';
+import PhilosopherCard from '@/components/PhilosopherCard';
+import { ChevronRight } from 'lucide-react';
+
+export default function CodexPage() {
+  const [selectedPhilosopher, setSelectedPhilosopher] = useState<Philosopher | null>(null);
+  const [selectedEra, setSelectedEra] = useState<Era | null>(null);
+
+  const philosophers = data.philosophers as Philosopher[];
+  const eras = data.eras as Era[];
+
+  const handlePhilosopherClick = (p: Philosopher) => {
+    const era = eras.find(e => e.id === p.era) || null;
+    setSelectedPhilosopher(p);
+    setSelectedEra(era);
+  };
+
+  return (
+    <div className="min-h-screen pt-8 px-4 pb-24">
+      <header className="mb-8">
+        <h1 className="text-3xl font-serif text-[var(--text-primary)]">Kodeks filozofów</h1>
+        <p className="text-[var(--text-secondary)] text-sm mt-1">Pełna baza wiedzy o mędrcach</p>
+      </header>
+
+      <div className="space-y-12">
+        {eras.map((era) => {
+          const eraPhilosophers = philosophers.filter(p => p.era === era.id);
+          if (eraPhilosophers.length === 0) return null;
+
+          return (
+            <section key={era.id}>
+              <h2 className="text-sm font-bold uppercase tracking-widest text-[var(--text-muted)] mb-4 flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full" style={{ backgroundColor: era.color }}></span>
+                {era.label}
+              </h2>
+              
+              <div className="space-y-3">
+                {eraPhilosophers.map((p) => {
+                  const initials = p.name.split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 2);
+                  return (
+                    <button
+                      key={p.id}
+                      onClick={() => handlePhilosopherClick(p)}
+                      className="w-full bg-[var(--bg-secondary)] border border-[var(--border)] rounded-xl p-4 flex items-start gap-4 text-left transition-all-fast active:scale-[0.98]"
+                    >
+                      <div 
+                        className="w-10 h-10 rounded-lg flex items-center justify-center font-bold text-xs shrink-0"
+                        style={{ backgroundColor: `${era.color}22`, color: era.color }}
+                      >
+                        {initials}
+                      </div>
+                      
+                      <div className="flex-1 min-w-0">
+                        <div className="flex justify-between items-start">
+                          <h3 className="font-bold text-[var(--text-primary)] truncate">{p.name}</h3>
+                          <span className="text-[10px] text-[var(--text-muted)] shrink-0">{p.dates}</span>
+                        </div>
+                        <p className="text-xs text-[var(--text-secondary)] mt-1 line-clamp-1">{p.tagline}</p>
+                        <div className="flex flex-wrap gap-1 mt-3">
+                          {p.tags.slice(0, 3).map(tag => (
+                            <span key={tag} className="text-[9px] px-1.5 py-0.5 bg-[var(--bg-tertiary)] text-[var(--text-muted)] rounded border border-[var(--border)]">
+                              #{tag}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                      
+                      <ChevronRight size={16} className="text-[var(--text-muted)] self-center" />
+                    </button>
+                  );
+                })}
+              </div>
+            </section>
+          );
+        })}
+      </div>
+
+      <PhilosopherCard
+        philosopher={selectedPhilosopher}
+        era={selectedEra}
+        onClose={() => setSelectedPhilosopher(null)}
+      />
+    </div>
+  );
+}

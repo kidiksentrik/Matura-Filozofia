@@ -1,0 +1,1217 @@
+{
+  "philosophers": [
+    {
+      "id": "tales",
+      "name": "Tales z Miletu",
+      "dates": "ok. 624–546 p.n.e.",
+      "era": "starozytnosc",
+      "origin": "Milet (Grecja)",
+      "tagline": "Pierwszy filozof zachodni – arche to woda",
+      "importance": "core",
+      "tags": ["presokratycy", "kosmologia", "arche"],
+      "description": "Uważany za pierwszego filozofa zachodniego. Poszukiwał jednej zasady (arche) leżącej u podstaw wszystkiego. Twierdził, że wszystko pochodzi z wody i do niej powraca.",
+      "concepts": [
+        { "term": "Arche", "definition": "pierwsza zasada, tworzywo wszystkiego – według Talesa jest nią woda" },
+        { "term": "Hylozoizm", "definition": "pogląd, że materia jest ożywiona; Tales przypisywał magnesowi duszę" },
+        { "term": "Monizm", "definition": "przekonanie, że cała rzeczywistość wywodzi się z jednej zasady" }
+      ],
+      "works": ["Nie pozostawił pism – znany z relacji Arystotelesa"],
+      "matura_tip": "Zapamiętaj: Tales = woda jako arche. Pierwszy użył pojęcia arche w sensie filozoficznym.",
+      "quotes": []
+    },
+    {
+      "id": "anaksymander",
+      "name": "Anaksymander",
+      "dates": "ok. 610–546 p.n.e.",
+      "era": "starozytnosc",
+      "origin": "Milet (Grecja)",
+      "tagline": "Arche to bezkres – apeiron",
+      "importance": "secondary",
+      "tags": ["presokratycy", "kosmologia", "apeiron"],
+      "description": "Uczeń Talesa. Uznał, że arche nie może być żaden konkretny żywioł, lecz nieokreślony bezkres – apeiron, z którego wyłaniają się przeciwieństwa.",
+      "concepts": [
+        { "term": "Apeiron", "definition": "\"bezkres\" – nieokreślone, wieczne tworzywo wszystkiego, z którego powstają przeciwieństwa" },
+        { "term": "Przeciwieństwa", "definition": "ciepłe/zimne, suche/wilgotne – wyłaniają się z apeironu i walczą ze sobą" }
+      ],
+      "works": ["O naturze (fragmenty)"],
+      "matura_tip": "Anaksymander = apeiron (bezkres). Różnica od Talesa: arche jest nieokreślone, nie konkretny żywioł.",
+      "quotes": []
+    },
+    {
+      "id": "anaksymenes",
+      "name": "Anaksymenes",
+      "dates": "ok. 585–525 p.n.e.",
+      "era": "starozytnosc",
+      "origin": "Milet (Grecja)",
+      "tagline": "Arche to powietrze – zagęszczanie i rozrzedzanie",
+      "importance": "secondary",
+      "tags": ["presokratycy", "kosmologia", "powietrze"],
+      "description": "Uczeń Anaksymandra. Wrócił do konkretnego żywiołu jako arche – wybrał powietrze, tłumacząc różnorodność świata procesami zagęszczania i rozrzedzania.",
+      "concepts": [
+        { "term": "Powietrze jako arche", "definition": "wszystko powstaje z powietrza przez zagęszczanie (woda, ziemia) i rozrzedzanie (ogień)" },
+        { "term": "Zagęszczanie i rozrzedzanie", "definition": "mechanizm wyjaśniający różnorodność rzeczy z jednego tworzywa" }
+      ],
+      "works": ["Nie zachowały się pisma"],
+      "matura_tip": "Trzej Milezyjczycy: Tales (woda) → Anaksymander (apeiron) → Anaksymenes (powietrze).",
+      "quotes": []
+    },
+    {
+      "id": "heraklit",
+      "name": "Heraklit z Efezu",
+      "dates": "ok. 540–480 p.n.e.",
+      "era": "starozytnosc",
+      "origin": "Efez (Grecja)",
+      "tagline": "Wszystko płynie – ogień i logos jako zasada świata",
+      "importance": "core",
+      "tags": ["presokratycy", "zmiana", "logos", "dialektyka"],
+      "description": "Zwany Ciemnym ze względu na aforystyczny styl. Głosił, że rzeczywistość jest w ciągłym ruchu i zmianie. Arche to ogień – symbol wiecznej przemiany.",
+      "concepts": [
+        { "term": "Panta rhei", "definition": "\"wszystko płynie\" – rzeczywistość jest ciągłą zmianą i ruchem" },
+        { "term": "Logos", "definition": "powszechny rozum / prawo rządzące zmianami w świecie" },
+        { "term": "Jedność przeciwieństw", "definition": "przeciwieństwa są ze sobą powiązane i warunkują się nawzajem (dzień/noc, życie/śmierć)" },
+        { "term": "Ogień jako arche", "definition": "ogień symbolizuje wieczną zmianę – wszystko w ogień się przemienia i z ognia powstaje" }
+      ],
+      "works": ["O naturze (fragmenty)"],
+      "matura_tip": "Heraklit = zmiana, panta rhei, logos. Często cytowany: \"Nie można wejść dwa razy do tej samej rzeki\".",
+      "quotes": [
+        { "text": "Nie można wejść dwa razy do tej samej rzeki.", "context": "O zmienności rzeczywistości" }
+      ]
+    },
+    {
+      "id": "parmenides",
+      "name": "Parmenides z Elei",
+      "dates": "ok. 515–450 p.n.e.",
+      "era": "starozytnosc",
+      "origin": "Elea (Italia)",
+      "tagline": "Byt jest, niebytu nie ma – niezmienność jako prawda",
+      "importance": "core",
+      "tags": ["eleaci", "ontologia", "byt", "niezmienność"],
+      "description": "Założyciel szkoły elejskiej. Przeciwieństwo Heraklita – zmiana jest złudzeniem zmysłów. Prawdziwy byt jest jeden, niezmienny i wieczny, poznawany tylko rozumem.",
+      "concepts": [
+        { "term": "Byt", "definition": "to, co jest – jedno, niezmienne, wieczne, niepodzielne" },
+        { "term": "Droga prawdy vs droga mniemania", "definition": "rozum prowadzi do prawdy (byt niezmienny), zmysły prowadzą do złudy (pozorna zmiana)" },
+        { "term": "\"Byt jest, niebytu nie ma\"", "definition": "fundamentalna zasada – niebyt jest nie do pomyślenia, więc zmiana (powstawanie z niebytu) jest niemożliwa" }
+      ],
+      "works": ["O naturze (poemat)"],
+      "matura_tip": "Parmenides vs Heraklit: byt niezmienny vs wszystko się zmienia. Kluczowe dla ontologii.",
+      "quotes": [
+        { "text": "Byt jest, a niebytu nie ma.", "context": "Fundamentalna teza ontologiczna" }
+      ]
+    },
+    {
+      "id": "zenon",
+      "name": "Zenon z Elei",
+      "dates": "ok. 490–430 p.n.e.",
+      "era": "starozytnosc",
+      "origin": "Elea (Italia)",
+      "tagline": "Aporie ruchu – ruch jest sprzeczny z rozumem",
+      "importance": "secondary",
+      "tags": ["eleaci", "aporie", "ruch", "dialektyka"],
+      "description": "Uczeń Parmenidesa. Bronił jego tezy o niezmienności bytu, wykazując sprzeczności w pojęciu ruchu poprzez słynne aporie.",
+      "concepts": [
+        { "term": "Aporia Achillesa i żółwia", "definition": "Achilles nigdy nie dogoni żółwia, bo zawsze musi najpierw pokonać połowę dystansu – ruch dzieli się w nieskończoność" },
+        { "term": "Aporia lotu strzały", "definition": "w każdej chwili strzała jest w jednym miejscu, więc jest nieruchoma – ruch to złudzenie" },
+        { "term": "Dialektyka", "definition": "metoda zbijania przeciwnika przez wykazanie sprzeczności jego twierdzeń" }
+      ],
+      "works": ["Nie zachowały się pisma"],
+      "matura_tip": "Zenon = aporie (paradoksy ruchu). Achilles i żółw – klasyczny przykład na maturze.",
+      "quotes": []
+    },
+    {
+      "id": "demokryt",
+      "name": "Demokryt",
+      "dates": "ok. 460–370 p.n.e.",
+      "era": "starozytnosc",
+      "origin": "Abdera (Grecja)",
+      "tagline": "Atomy i próżnia – materializm atomistyczny",
+      "importance": "core",
+      "tags": ["presokratycy", "atomizm", "materializm"],
+      "description": "Wraz z Leucypem twórca atomizmu. Wszystko składa się z niepodzielnych atomów poruszających się w próżni. Pierwszy konsekwentny materialista w historii filozofii.",
+      "concepts": [
+        { "term": "Atom", "definition": "\"niepodzielny\" – najmniejsza, niepodzielna cząstka materii, różniąca się kształtem i wielkością" },
+        { "term": "Próżnia", "definition": "pusta przestrzeń, w której poruszają się atomy – \"niebyt\" który istnieje" },
+        { "term": "Atomizm", "definition": "wszystkie zjawiska wyjaśnialne przez ruch i układy atomów w próżni" },
+        { "term": "Determinizm", "definition": "wszystko co się dzieje ma przyczynę – przypadek to tylko nasza nieznajomość przyczyn" }
+      ],
+      "works": ["Wielki Wielkoświat", "Mały Wielkoświat (fragmenty)"],
+      "matura_tip": "Demokryt = atomizm + materializm. Atomy + próżnia = cała rzeczywistość. Brak miejsca na bogów.",
+      "quotes": []
+    },
+    {
+      "id": "sokrates",
+      "name": "Sokrates",
+      "dates": "469–399 p.n.e.",
+      "era": "starozytnosc",
+      "origin": "Ateny (Grecja)",
+      "tagline": "Wiem, że nic nie wiem – etyka i metoda dialogu",
+      "importance": "core",
+      "tags": ["etyka", "metoda sokratejska", "dialog", "cnota"],
+      "description": "Nie pozostawił pism. Nauczał przez dialog na ateńskiej agorze. Skazany na śmierć za bezbożność i demoralizację młodzieży. Twórca etyki jako dziedziny filozofii.",
+      "concepts": [
+        { "term": "Majeutyka", "definition": "metoda \"położnicza\" – przez pytania pomaga rozmówcy samemu odkryć prawdę" },
+        { "term": "Elenchos", "definition": "metoda zbijania fałszywych przekonań przez systematyczne pytania krzyżowe" },
+        { "term": "Cnota jako wiedza (arete)", "definition": "zło pochodzi z niewiedzy – kto wie co dobre, ten dobrze postępuje" },
+        { "term": "\"Poznaj samego siebie\"", "definition": "filozofia zaczyna się od samopoznania i pokory intelektualnej" },
+        { "term": "Ironia sokratejska", "definition": "udawanie niewiedzy, by skłonić rozmówcę do głębszego myślenia" }
+      ],
+      "works": ["Nie pozostawił pism – znany z dialogów Platona i pism Ksenofonta"],
+      "matura_tip": "Sokrates = majeutyka, elenchos, cnota = wiedza. \"Wiem, że nic nie wiem\" – postawa intelektualnej pokory.",
+      "quotes": [
+        { "text": "Wiem, że nic nie wiem.", "context": "Wyraz intelektualnej pokory jako podstawy filozofii" },
+        { "text": "Poznaj samego siebie.", "context": "Dewiza filozofii sokratejskiej" }
+      ]
+    },
+    {
+      "id": "platon",
+      "name": "Platon",
+      "dates": "427–347 p.n.e.",
+      "era": "starozytnosc",
+      "origin": "Ateny (Grecja)",
+      "tagline": "Teoria idei – świat materialny to cień prawdziwego bytu",
+      "importance": "core",
+      "tags": ["metafizyka", "teoria idei", "polityka", "epistemologia"],
+      "description": "Uczeń Sokratesa, założyciel Akademii Ateńskiej. Stworzył teorię idei jako wiecznych, niematerialnych bytów. Jeden z najważniejszych filozofów w historii.",
+      "concepts": [
+        { "term": "Teoria idei (form)", "definition": "prawdziwy byt to niematerialne, wieczne idee; rzeczy materialne to ich niedoskonałe odbicia" },
+        { "term": "Alegoria jaskini", "definition": "więźniowie widzą tylko cienie rzeczy – filozofia pozwala wyjść na światło i poznać prawdziwy byt" },
+        { "term": "Dusza trójdzielna", "definition": "rozum (głowa) – wola/popędliwość (pierś) – pożądanie (brzuch)" },
+        { "term": "Anamneza", "definition": "wiedza to przypominanie sobie – dusza przed narodzinami oglądała idee" },
+        { "term": "Państwo idealne", "definition": "rządzone przez filozofów-królów, podzielone na trzy stany odpowiadające częściom duszy" },
+        { "term": "Erос filozoficzny", "definition": "miłość do piękna jako droga ku idei Piękna i Dobra" }
+      ],
+      "works": ["Państwo (Politeia)", "Fedon", "Uczta (Sympozjon)", "Menon", "Timajos", "Fajdros"],
+      "matura_tip": "Platon = idee, alegoria jaskini, dusza trójdzielna. Świat materialny to cień, idee to prawdziwy byt.",
+      "quotes": [
+        { "text": "Filozofowie powinni być królami.", "context": "O idealnym państwie w Państwie" }
+      ]
+    },
+    {
+      "id": "arystoteles",
+      "name": "Arystoteles",
+      "dates": "384–322 p.n.e.",
+      "era": "starozytnosc",
+      "origin": "Stagira (Macedónia)",
+      "tagline": "Złoty środek, logika formalna i hylemorfizm",
+      "importance": "core",
+      "tags": ["logika", "etyka", "metafizyka", "polityka", "hylemorfizm"],
+      "description": "Uczeń Platona, nauczyciel Aleksandra Macedońskiego, założyciel Liceum. Encyklopedyczny myśliciel – zajmował się logiką, biologią, etyką, polityką, fizyką i metafizyką.",
+      "concepts": [
+        { "term": "Hylemorfizm", "definition": "każda rzecz składa się z materii (hyle) i formy (morphe)" },
+        { "term": "Cztery przyczyny", "definition": "materialna, formalna, sprawcza, celowa – pełne wyjaśnienie każdej rzeczy" },
+        { "term": "Złoty środek (mesotes)", "definition": "cnota to środek między wadą nadmiaru i wadą niedostatku (np. odwaga między tchórzostwem a brawurą)" },
+        { "term": "Eudajmonia", "definition": "szczęście jako cel życia – osiągane przez cnotliwe, rozumne działanie" },
+        { "term": "Sylogizm", "definition": "forma dedukcji: dwie przesłanki → konieczny wniosek" },
+        { "term": "Człowiek jako zoon politikon", "definition": "człowiek jest z natury istotą społeczną i polityczną" },
+        { "term": "Entelechia", "definition": "wewnętrzny cel bytu – aktualizacja możności w akt" }
+      ],
+      "works": ["Etyka nikomachejska", "Polityka", "Metafizyka", "Organon", "Poetyka", "Fizyka"],
+      "matura_tip": "Arystoteles = złoty środek, hylemorfizm, sylogizm, eudajmonia, cztery przyczyny. Najszerszy zakres tematyczny na maturze.",
+      "quotes": [
+        { "text": "Człowiek jest z natury zwierzęciem politycznym.", "context": "Z Polityki – o społecznej naturze człowieka" }
+      ]
+    },
+    {
+      "id": "epikur",
+      "name": "Epikur",
+      "dates": "341–270 p.n.e.",
+      "era": "starozytnosc",
+      "origin": "Samos (Grecja)",
+      "tagline": "Przyjemność i spokój ducha jako cel życia – epikureizm",
+      "importance": "core",
+      "tags": ["etyka", "hedonizm", "ataraksja", "epikureizm"],
+      "description": "Założyciel szkoły Ogród. Głosił, że celem życia jest przyjemność rozumiana jako brak bólu (aponia) i spokój ducha (ataraksja). Nie chodzi o zmysłowe ekscesy, lecz o umiarkowanie.",
+      "concepts": [
+        { "term": "Hedonizm etyczny", "definition": "przyjemność jest najwyższym dobrem i celem życia" },
+        { "term": "Ataraksja", "definition": "spokój ducha, wolność od niepokoju – najwyższa przyjemność duchowa" },
+        { "term": "Aponia", "definition": "brak bólu fizycznego – najwyższa przyjemność cielesna" },
+        { "term": "Tetrafarmakos", "definition": "cztery lekarstwa: Boga się nie bój, śmierci się nie lękaj, dobro łatwo zdobyć, zło łatwo znieść" },
+        { "term": "Śmierć nas nie dotyczy", "definition": "gdy jesteśmy – śmierci nie ma, gdy śmierć jest – nas nie ma; nie ma powodu do strachu" }
+      ],
+      "works": ["List do Menoikeusa", "List do Herodota"],
+      "matura_tip": "Epikur ≠ rozwiązłość. Epikur = ataraksja + aponia. Tetrafarmakos jest często cytowany na maturze.",
+      "quotes": [
+        { "text": "Śmierć jest niczym dla nas, bo gdy my jesteśmy, śmierci nie ma, a gdy śmierć jest, nas nie ma.", "context": "O braku strachu przed śmiercią" }
+      ]
+    },
+    {
+      "id": "seneka",
+      "name": "Seneka Młodszy",
+      "dates": "ok. 4 p.n.e. – 65 n.e.",
+      "era": "starozytnosc",
+      "origin": "Korduba (Hispania Romana)",
+      "tagline": "Stoicyzm – żyj zgodnie z naturą i rozumem",
+      "importance": "core",
+      "tags": ["stoicyzm", "etyka", "rozum", "śmierć"],
+      "description": "Najważniejszy rzymski stoik. Wychowawca i doradca cesarza Nerona. Zmuszony do samobójstwa. Głosił, że szczęście zależy wyłącznie od cnoty i rozumu, nie od zewnętrznych okoliczności.",
+      "concepts": [
+        { "term": "Stoicyzm", "definition": "cnota jedynym dobrem; to, co zewnętrzne (bogactwo, zdrowie) jest obojętne (adiaphoron)" },
+        { "term": "Życie zgodne z naturą", "definition": "żyć według rozumu, który jest częścią powszechnego logosu" },
+        { "term": "Rzeczy zależne i niezależne od nas", "definition": "skupiaj się na tym, co zależy od ciebie (wola, sądy), nie martw się resztą" },
+        { "term": "Meditatio mortis", "definition": "ćwiczenie myślenia o śmierci jako droga do wolności i pełni życia" }
+      ],
+      "works": ["Listy moralne do Lucyliusza", "O krótkim życiu", "O spokoju ducha"],
+      "matura_tip": "Seneka = stoicyzm w praktyce. \"Dum differtur vita transcurrit\" – podczas odkładania życie mija.",
+      "quotes": [
+        { "text": "Nie brak nam czasu, lecz go trwonimy.", "context": "O wartości czasu z O krótkim życiu" }
+      ]
+    },
+    {
+      "id": "plotyn",
+      "name": "Plotyn",
+      "dates": "204–270 n.e.",
+      "era": "starozytnosc",
+      "origin": "Likopolis (Egipt)",
+      "tagline": "Neoplatonizm – Jedno jako źródło wszelkiego bytu",
+      "importance": "secondary",
+      "tags": ["neoplatonizm", "metafizyka", "mistycyzm", "Jedno"],
+      "description": "Twórca neoplatonizmu. Rozwinął filozofię Platona w kierunku mistycznym. Rzeczywistość emanuje z Jednego (Boga) poprzez kolejne poziomy bytu.",
+      "concepts": [
+        { "term": "Jedno (Hen)", "definition": "absolutna jedność, źródło wszelkiego bytu, poza opisem i poznaniem" },
+        { "term": "Emanacja", "definition": "rzeczywistość \"wypromieniowuje\" z Jednego: Jedno → Nous (Rozum) → Dusza → Materia" },
+        { "term": "Henoza", "definition": "mistyczne zjednoczenie duszy z Jednym – cel filozofii i życia" }
+      ],
+      "works": ["Enneady (zebrał Porfiriusz)"],
+      "matura_tip": "Plotyn = neoplatonizm, emanacja, Jedno. Most między filozofią grecką a filozofią chrześcijańską.",
+      "quotes": []
+    },
+    {
+      "id": "augustyn",
+      "name": "Święty Augustyn",
+      "dates": "354–430 n.e.",
+      "era": "sredniowiecze",
+      "origin": "Tagaste (Numidia, dziś Algieria)",
+      "tagline": "Łaska, wolna wola i miasto Boże – filozofia chrześcijańska",
+      "importance": "core",
+      "tags": ["teologia", "wolna wola", "łaska", "filozofia chrześcijańska"],
+      "description": "Ojciec Kościoła, biskup Hippony. Nawrócony manichejczyk i platonik. Dokonał syntezy platonizmu z chrześcijaństwem. Jego myśl dominowała przez całe średniowiecze.",
+      "concepts": [
+        { "term": "Łaska i wolna wola", "definition": "człowiek ma wolną wolę, ale zbawienie zależy od łaski Bożej – napięcie między wolnością a predestynacją" },
+        { "term": "Miasto Boże vs miasto ziemskie", "definition": "dwie wspólnoty: zbudowana na miłości Boga i na miłości własnej – historia to ich walka" },
+        { "term": "Iluminacja", "definition": "poznanie prawdy możliwe dzięki oświeceniu przez Boga – modyfikacja teorii idei Platona" },
+        { "term": "\"Niespokojne jest serce nasze\"", "definition": "człowiek stworzony do Boga i niespokojny, dopóki w Nim nie spocznie" },
+        { "term": "Zło jako brak dobra (privatio boni)", "definition": "zło nie jest bytem, lecz brakiem dobra – Bóg nie jest sprawcą zła" }
+      ],
+      "works": ["Wyznania (Confessiones)", "O Państwie Bożym (De civitate Dei)", "O wolnej woli"],
+      "matura_tip": "Augustyn = łaska + wolna wola, dwa miasta, iluminacja. Wyznania to pierwsza autobiografia filozoficzna.",
+      "quotes": [
+        { "text": "Niespokojne jest serce nasze, dopóki nie spocznie w Tobie.", "context": "Z Wyznań – o naturze człowieka i Bogu" }
+      ]
+    },
+    {
+      "id": "anzelm",
+      "name": "Święty Anzelm z Canterbury",
+      "dates": "1033–1109",
+      "era": "sredniowiecze",
+      "origin": "Aosta (Italia)",
+      "tagline": "Ontologiczny dowód na istnienie Boga",
+      "importance": "secondary",
+      "tags": ["teologia", "ontologia", "dowód na istnienie Boga", "scholastyka"],
+      "description": "Arcybiskup Canterbury. Twórca słynnego ontologicznego argumentu na istnienie Boga. Głosił: \"Wierzę, żebym rozumiał\" (credo ut intelligam).",
+      "concepts": [
+        { "term": "Argument ontologiczny", "definition": "Bóg to \"to, ponad co nic większego pomyśleć nie można\"; istnieje, bo istnienie jest doskonałością – brak istnienia byłby brakiem doskonałości" },
+        { "term": "Credo ut intelligam", "definition": "\"wierzę, żebym rozumiał\" – wiara jako punkt wyjścia dla rozumu" },
+        { "term": "Realizm pojęciowy", "definition": "pojęcia ogólne (universalia) istnieją realnie, nie tylko w umyśle" }
+      ],
+      "works": ["Proslogion", "Monologion"],
+      "matura_tip": "Anzelm = argument ontologiczny. Bóg musi istnieć, bo jest \"najdoskonalszą możliwą istotą\".",
+      "quotes": []
+    },
+    {
+      "id": "tomasz",
+      "name": "Święty Tomasz z Akwinu",
+      "dates": "1225–1274",
+      "era": "sredniowiecze",
+      "origin": "Akwin (Italia)",
+      "tagline": "Pięć dróg do Boga i synteza Arystotelesa z teologią",
+      "importance": "core",
+      "tags": ["teologia", "scholastyka", "dowody na istnienie Boga", "etyka", "prawo naturalne"],
+      "description": "Dominikanin, Doctor Angelicus. Dokonał syntezy filozofii Arystotelesa z teologią chrześcijańską. Jego tomizm stał się oficjalną filozofią Kościoła Katolickiego.",
+      "concepts": [
+        { "term": "Pięć dróg (Quinque viae)", "definition": "dowody na istnienie Boga: 1) ruch, 2) przyczynowość sprawcza, 3) konieczność i przypadkowość, 4) stopnie doskonałości, 5) celowość (argument teleologiczny)" },
+        { "term": "Prawo naturalne", "definition": "normy moralne wypisane przez Boga w naturze człowieka, poznawalne rozumem bez objawienia" },
+        { "term": "Akt i możność", "definition": "każda rzecz ma akt (to, czym jest) i możność (czym może być); Bóg to czysty akt (Actus Purus)" },
+        { "term": "Wiara i rozum", "definition": "wiara i rozum są zgodne; rozum przygotowuje drogę wiary, wiara ją dopełnia" },
+        { "term": "Analogia bytu", "definition": "Bóg i stworzenia nie są ani jednoznaczne, ani wieloznaczne – relacja analogii" }
+      ],
+      "works": ["Suma teologiczna (Summa Theologiae)", "Suma contra gentiles", "O bycie i istocie"],
+      "matura_tip": "Tomasz = pięć dróg, prawo naturalne, wiara + rozum. Pięć dróg trzeba znać szczegółowo!",
+      "quotes": []
+    },
+    {
+      "id": "descartes",
+      "name": "René Descartes",
+      "dates": "1596–1650",
+      "era": "nowozytnosc",
+      "origin": "La Haye en Touraine (Francja)",
+      "tagline": "Cogito ergo sum – ojciec racjonalizmu nowożytnego",
+      "importance": "core",
+      "tags": ["racjonalizm", "metodologia", "dualizm", "epistemologia"],
+      "description": "Matematyk i filozof, twórca geometrii analitycznej. Szukał niepodważalnego fundamentu wiedzy przez metodyczne wątpienie. Ojciec nowożytnego racjonalizmu.",
+      "concepts": [
+        { "term": "Cogito ergo sum", "definition": "\"Myślę, więc jestem\" – jedyna pewność po metodycznym wątpieniu w wszystko" },
+        { "term": "Wątpienie metodyczne", "definition": "przyjmij za fałszywe wszystko, w co można wątpić – punkt startu do pewnej wiedzy" },
+        { "term": "Zły demon (genius malignus)", "definition": "hipoteza – co gdyby potężny demon zwodził nasze zmysły i rozum? Muszę znaleźć pewność odporną na to" },
+        { "term": "Dualizm kartezjański", "definition": "ciało (res extensa – substancja rozciągła) i dusza/umysł (res cogitans – substancja myśląca) to dwie odrębne substancje" },
+        { "term": "Idee wrodzone", "definition": "pewne pojęcia (Bóg, nieskończoność, geometria) są wrodzone – nie pochodzą z doświadczenia" }
+      ],
+      "works": ["Rozprawa o metodzie", "Medytacje o pierwszej filozofii", "Zasady filozofii"],
+      "matura_tip": "Descartes = cogito, wątpienie metodyczne, dualizm. \"Myślę, więc jestem\" to najważniejsze zdanie nowożytnej filozofii.",
+      "quotes": [
+        { "text": "Myślę, więc jestem.", "context": "Cogito ergo sum – pewność po metodycznym wątpieniu" }
+      ]
+    },
+    {
+      "id": "pascal",
+      "name": "Blaise Pascal",
+      "dates": "1623–1662",
+      "era": "nowozytnosc",
+      "origin": "Clermont (Francja)",
+      "tagline": "Zakład Pascala – wiara i granice rozumu",
+      "importance": "secondary",
+      "tags": ["filozofia religii", "epistemologia", "zakład", "człowiek"],
+      "description": "Matematyk, fizyk i filozof religii. Krytykował racjonalizm kartezjański. Wskazywał na granice rozumu i bronił wiary przez słynny zakład.",
+      "concepts": [
+        { "term": "Zakład Pascala", "definition": "jeśli Bóg istnieje i wierzysz – zyskujesz wieczność; jeśli nie istnieje – nie tracisz nic; racjonalnie opłaca się wierzyć" },
+        { "term": "\"Człowiek to trzcina myśląca\"", "definition": "człowiek jest słaby jak trzcina, ale jego wielkość polega na świadomości – myśleniu" },
+        { "term": "Serce ma racje, których rozum nie zna", "definition": "wiara jest sprawą serca, nie rozumu; rozum ma granice" },
+        { "term": "Bóg filozofów vs Bóg Abrahama", "definition": "Bóg religii objawionej różni się od abstrakcyjnego Boga filozoficznego" }
+      ],
+      "works": ["Myśli (Pensées)", "Prowincjałki"],
+      "matura_tip": "Pascal = zakład Pascala, \"trzcina myśląca\". Granice rozumu i rola serca w poznaniu.",
+      "quotes": [
+        { "text": "Człowiek jest tylko trzciną, najsłabszą w przyrodzie, ale trzciną myślącą.", "context": "Z Myśli – o ludzkiej naturze" }
+      ]
+    },
+    {
+      "id": "spinoza",
+      "name": "Baruch Spinoza",
+      "dates": "1632–1677",
+      "era": "nowozytnosc",
+      "origin": "Amsterdam (Niderlandy)",
+      "tagline": "Bóg czyli Natura – panteizm i monizm substancji",
+      "importance": "secondary",
+      "tags": ["metafizyka", "panteizm", "monizm", "etyka", "racjonalizm"],
+      "description": "Wykluczony ze wspólnoty żydowskiej za heretyckie poglądy. Głosił, że istnieje tylko jedna substancja – Bóg utożsamiony z Naturą. Budował etykę metodą geometryczną.",
+      "concepts": [
+        { "term": "Deus sive Natura", "definition": "\"Bóg czyli Natura\" – jedna substancja mająca nieskończenie wiele atrybutów; panteizm" },
+        { "term": "Monizm substancji", "definition": "istnieje tylko jedna substancja (Bóg/Natura); myśl i rozciągłość to jej atrybuty" },
+        { "term": "Conatus", "definition": "dążenie każdej rzeczy do zachowania własnego bytu – podstawowy popęd egzystencji" },
+        { "term": "Wolność jako konieczność rozumiana", "definition": "wolność to działanie zgodne z własną naturą i rozumem, nie dowolność" }
+      ],
+      "works": ["Etyka w porządku geometrycznym udowodniona", "Traktat teologiczno-polityczny"],
+      "matura_tip": "Spinoza = panteizm (Bóg = Natura), monizm. Odwrotność Descartesa – jedna substancja, nie dwie.",
+      "quotes": []
+    },
+    {
+      "id": "leibniz",
+      "name": "Gottfried Wilhelm Leibniz",
+      "dates": "1646–1716",
+      "era": "nowozytnosc",
+      "origin": "Lipsk (Niemcy)",
+      "tagline": "Monady i najlepszy możliwy świat – racjonalizm i optymizm",
+      "importance": "secondary",
+      "tags": ["metafizyka", "monady", "optymizm", "racjonalizm"],
+      "description": "Matematyk (współtwórca rachunku różniczkowego), dyplomata i filozof. Stworzył teorię monad jako elementarnych jednostek bytu.",
+      "concepts": [
+        { "term": "Monada", "definition": "elementarna, niepodzielna, niematerialna jednostka bytu; każda monada odzwierciedla cały wszechświat" },
+        { "term": "Najlepszy możliwy świat", "definition": "Bóg stworzył ten świat spośród nieskończonych możliwości – jest najlepszym możliwym (Wolter z tego kpił)" },
+        { "term": "Harmonia przedustawna", "definition": "Bóg skoordynował monady tak, by tworzyły harmonijną całość bez wzajemnego oddziaływania" },
+        { "term": "Zasada racji dostatecznej", "definition": "wszystko ma swój rację bytu (przyczynę lub cel)" }
+      ],
+      "works": ["Monadologia", "Teodycea", "Nowe rozważania dotyczące rozumu ludzkiego"],
+      "matura_tip": "Leibniz = monady, najlepszy możliwy świat. Optymizm metafizyczny skrytykowany przez Woltera w Kandydzie.",
+      "quotes": []
+    },
+    {
+      "id": "locke",
+      "name": "John Locke",
+      "dates": "1632–1704",
+      "era": "nowozytnosc",
+      "origin": "Wrington (Anglia)",
+      "tagline": "Tabula rasa i liberalizm polityczny – ojciec empiryzmu",
+      "importance": "core",
+      "tags": ["empiryzm", "polityka", "epistemologia", "liberalizm"],
+      "description": "Angielski filozof i lekarz. Ojciec empiryzmu i liberalizmu klasycznego. Jego myśl polityczna wywarła ogromny wpływ na Oświecenie i konstytucję USA.",
+      "concepts": [
+        { "term": "Tabula rasa", "definition": "umysł to czysta tablica – cała wiedza pochodzi z doświadczenia zmysłowego, brak idei wrodzonych" },
+        { "term": "Prawa naturalne", "definition": "życie, wolność, własność – prawa niezbywalne każdego człowieka, poprzedzające państwo" },
+        { "term": "Umowa społeczna", "definition": "państwo powstaje z umowy obywateli; mają prawo do oporu, gdy władza łamie prawa naturalne" },
+        { "term": "Podział władzy", "definition": "ustawodawcza i wykonawcza powinny być oddzielone – podstawa myśli liberalnej" },
+        { "term": "Tolerancja religijna", "definition": "państwo nie powinno narzucać religii – List o tolerancji" }
+      ],
+      "works": ["Dwa traktaty o rządzie", "Rozważania dotyczące rozumu ludzkiego", "List o tolerancji"],
+      "matura_tip": "Locke = tabula rasa, prawa naturalne (życie/wolność/własność), umowa społeczna. Kluczowy dla filozofii polityki.",
+      "quotes": []
+    },
+    {
+      "id": "berkeley",
+      "name": "George Berkeley",
+      "dates": "1685–1753",
+      "era": "nowozytnosc",
+      "origin": "Kilkenny (Irlandia)",
+      "tagline": "Esse est percipi – istnieć to być postrzeganym",
+      "importance": "secondary",
+      "tags": ["empiryzm", "idealizm", "epistemologia"],
+      "description": "Irlandzki biskup i filozof. Rozwinął empiryzm Locke'a do radykalnego idealizmu: materia nie istnieje samodzielnie – rzeczy to zbiory postrzeżeń w umysłach.",
+      "concepts": [
+        { "term": "Esse est percipi", "definition": "\"istnieć to być postrzeganym\" – rzeczy istnieją tylko jako postrzeżenia w umysłach" },
+        { "term": "Idealizm subiektywny", "definition": "nie istnieje materia niezależna od umysłu – tylko umysły i ich idee" },
+        { "term": "Bóg jako gwarant", "definition": "świat istnieje ciągle, bo Bóg go nieustannie postrzega" }
+      ],
+      "works": ["Traktat o zasadach poznania ludzkiego", "Trzy dialogi między Hylasem i Filonousem"],
+      "matura_tip": "Berkeley = esse est percipi. Radykalizuje Locke'a: nie ma materii, są tylko postrzeżenia.",
+      "quotes": [
+        { "text": "Być znaczy być postrzeganym.", "context": "Fundamentalna teza idealizmu Berkeleya" }
+      ]
+    },
+    {
+      "id": "hume",
+      "name": "David Hume",
+      "dates": "1711–1776",
+      "era": "nowozytnosc",
+      "origin": "Edynburg (Szkocja)",
+      "tagline": "Sceptycyzm i problem indukcji – krytyka metafizyki",
+      "importance": "core",
+      "tags": ["empiryzm", "sceptycyzm", "epistemologia", "etyka"],
+      "description": "Szkocki filozof i historyk. Doprowadził empiryzm do konsekwentnego sceptycyzmu. Jego krytyka przyczynowości i indukcji \"wybudziła Kanta z dogmatycznej drzemki\".",
+      "concepts": [
+        { "term": "Problem indukcji", "definition": "z obserwacji wielu przypadków nie można z koniecznością wywnioskować ogólnego prawa – indukcja nie jest logicznie pewna" },
+        { "term": "Krytyka przyczynowości", "definition": "nie postrzegamy związku przyczynowego – tylko stałe następstwo zdarzeń; przyczynowość to nawyk umysłu" },
+        { "term": "Impresje i idee", "definition": "impresje (wrażenia zmysłowe) są źródłem idei (myśli); idee bez impresji są puste" },
+        { "term": "\"Gilotyna Hume'a\"", "definition": "z tego, co jest (fakty), nie wynika logicznie to, co być powinno (normy) – przepaść między is i ought" },
+        { "term": "Sceptycyzm", "definition": "nie możemy mieć pewnej wiedzy o świecie zewnętrznym, przyczynowości ani jaźni" }
+      ],
+      "works": ["Traktat o naturze ludzkiej", "Badania dotyczące rozumu ludzkiego", "Badania dotyczące zasad moralności"],
+      "matura_tip": "Hume = sceptycyzm, problem indukcji, krytyka przyczynowości, gilotyna Hume'a (is-ought). Obudził Kanta.",
+      "quotes": []
+    },
+    {
+      "id": "rousseau",
+      "name": "Jean-Jacques Rousseau",
+      "dates": "1712–1778",
+      "era": "nowozytnosc",
+      "origin": "Genewa (Szwajcaria)",
+      "tagline": "Dobry dzikus i wola powszechna – krytyka cywilizacji",
+      "importance": "core",
+      "tags": ["polityka", "pedagogika", "umowa społeczna", "cywilizacja"],
+      "description": "Genewski pisarz i filozof. Krytyk oświeceniowego optymizmu wobec cywilizacji. Głosił, że człowiek z natury jest dobry, a cywilizacja go psuje.",
+      "concepts": [
+        { "term": "Dobry dzikus (bon sauvage)", "definition": "człowiek w stanie natury jest dobry i wolny – cywilizacja, własność prywatna i nierówności go korumpują" },
+        { "term": "Wola powszechna (volonté générale)", "definition": "suwerenna wola ogółu obywateli, wyrażająca dobro wspólne – różna od sumy woli indywidualnych" },
+        { "term": "Umowa społeczna", "definition": "legitymizacja władzy pochodzi od ludu; rząd jest tylko wykonawcą woli powszechnej" },
+        { "term": "Nierówność a własność", "definition": "własność prywatna jest źródłem nierówności i zepsucia społecznego" }
+      ],
+      "works": ["Umowa społeczna", "Rozprawa o nierówności", "Emil, czyli o wychowaniu"],
+      "matura_tip": "Rousseau = dobry dzikus, wola powszechna, krytyka cywilizacji. Wpływ na rewolucję francuską i pedagogikę.",
+      "quotes": [
+        { "text": "Człowiek rodzi się wolny, a wszędzie jest w okowach.", "context": "Z Umowy społecznej – o wolności i społeczeństwie" }
+      ]
+    },
+    {
+      "id": "kant",
+      "name": "Immanuel Kant",
+      "dates": "1724–1804",
+      "era": "nowozytnosc",
+      "origin": "Królewiec (Prusy)",
+      "tagline": "Imperatyw kategoryczny i rewolucja kopernikańska w filozofii",
+      "importance": "core",
+      "tags": ["etyka", "epistemologia", "krytycyzm", "metafizyka"],
+      "description": "Pruski filozof, jeden z najważniejszych w historii. Dokonał syntezy racjonalizmu i empiryzmu. Stworzył etykę obowiązku opartą na rozumie.",
+      "concepts": [
+        { "term": "Imperatyw kategoryczny", "definition": "\"Postępuj tylko według tej maksymy, którą mógłbyś chcieć uczynić powszechnym prawem natury\"" },
+        { "term": "Rewolucja kopernikańska w filozofii", "definition": "nie umysł dostosowuje się do rzeczy, lecz rzeczy do form umysłu – podmiot aktywnie porządkuje doświadczenie" },
+        { "term": "Rzecz sama w sobie (Ding an sich)", "definition": "rzeczywistość taka jaka jest – niedostępna poznaniu; znamy tylko zjawiska (fenomeny)" },
+        { "term": "Aprioryczne formy poznania", "definition": "czas i przestrzeń (intuicje) oraz kategorie intelektu (przyczynowość itd.) są wnoszone przez umysł, nie czerpane z doświadczenia" },
+        { "term": "Autonomia woli", "definition": "prawdziwa wolność moralna polega na działaniu według własnego, rozumowego prawa – nie według skłonności czy nakazów zewnętrznych" },
+        { "term": "Człowiek jako cel sam w sobie", "definition": "nigdy nie traktuj człowieka wyłącznie jako środka – zawsze jako cel" }
+      ],
+      "works": ["Krytyka czystego rozumu", "Krytyka praktycznego rozumu", "Uzasadnienie metafizyki moralności", "Krytyka władzy sądzenia"],
+      "matura_tip": "Kant = imperatyw kategoryczny, ding an sich, rewolucja kopernikańska. Trzy Krytyki. Najważniejszy nowożytny etyk.",
+      "quotes": [
+        { "text": "Postępuj tak, jakbyś chciał, żeby twoja maksyma stała się prawem powszechnym.", "context": "Imperatyw kategoryczny z Uzasadnienia metafizyki moralności" },
+        { "text": "Niebo gwiaździste nade mną i prawo moralne we mnie.", "context": "Z Krytyki praktycznego rozumu – o dwóch źródłach podziwu" }
+      ]
+    },
+    {
+      "id": "hegel",
+      "name": "Georg Wilhelm Friedrich Hegel",
+      "dates": "1770–1831",
+      "era": "nowozytnosc",
+      "origin": "Stuttgart (Niemcy)",
+      "tagline": "Dialektyka i Duch Absolutny – historia jako rozwój wolności",
+      "importance": "core",
+      "tags": ["dialektyka", "idealizm", "historia", "metafizyka"],
+      "description": "Najważniejszy przedstawiciel idealizmu niemieckiego. Stworzył system dialektyczny wyjaśniający rzeczywistość jako rozwój Ducha Absolutnego.",
+      "concepts": [
+        { "term": "Dialektyka (teza–antyteza–synteza)", "definition": "rozwój przez sprzeczność: teza zostaje zaprzeczona przez antytezę, a synteza godzi obie na wyższym poziomie" },
+        { "term": "Duch Absolutny", "definition": "byt absolutny, który dochodzi do samoświadomości przez historię, sztukę, religię i filozofię" },
+        { "term": "\"Co rozumne, to rzeczywiste\"", "definition": "rzeczywistość jest racjonalna; historia to realizacja rozumu" },
+        { "term": "Dialektyka pana i sługi", "definition": "relacja dominacji i zależności jako motor samoświadomości – fundamentalna dla filozofii społecznej" },
+        { "term": "Historia jako realizacja wolności", "definition": "historia świata to postęp w uświadomieniu wolności (Orient – jeden wolny; Grecja – niektórzy; nowożytność – wszyscy)" }
+      ],
+      "works": ["Fenomenologia ducha", "Nauka logiki", "Encyklopedia nauk filozoficznych", "Zasady filozofii prawa"],
+      "matura_tip": "Hegel = dialektyka (teza-antyteza-synteza), Duch Absolutny, historia = realizacja wolności. Wpływ na Marksa.",
+      "quotes": [
+        { "text": "Co rozumne, to rzeczywiste; co rzeczywiste, to rozumne.", "context": "Z Zasad filozofii prawa – o racjonalności historii" }
+      ]
+    },
+    {
+      "id": "mill",
+      "name": "John Stuart Mill",
+      "dates": "1806–1873",
+      "era": "nowozytnosc",
+      "origin": "Londyn (Anglia)",
+      "tagline": "Utylitaryzm i wolność jednostki – maksymalizacja szczęścia",
+      "importance": "core",
+      "tags": ["etyka", "utylitaryzm", "polityka", "liberalizm"],
+      "description": "Angielski filozof i ekonomista, obrońca liberalizmu i praw kobiet. Rozwinął utylitaryzm Benthama, wprowadzając jakościowe rozróżnienie przyjemności.",
+      "concepts": [
+        { "term": "Utylitaryzm", "definition": "dobre jest to, co maksymalizuje szczęście (przyjemność) jak największej liczby ludzi" },
+        { "term": "Zasada użyteczności", "definition": "kryterium moralności to \"największe szczęście największej liczby\"" },
+        { "term": "Przyjemności wyższe i niższe", "definition": "przyjemności intelektualne są wyższe niż zmysłowe – \"lepiej być niezadowolonym Sokratesem niż zadowoloną świnią\"" },
+        { "term": "Zasada skrzywdzenia (harm principle)", "definition": "jednostka może być ograniczona tylko wtedy, gdy jej działanie krzywdzi innych – w sprawach dotyczących siebie jest suwerenna" }
+      ],
+      "works": ["Utylitaryzm", "O wolności", "System logiki"],
+      "matura_tip": "Mill = utylitaryzm, zasada skrzywdzenia. \"Lepiej być niezadowolonym Sokratesem niż zadowoloną świnią\" – klasyczny cytat.",
+      "quotes": [
+        { "text": "Lepiej być niezadowolonym Sokratesem niż zadowoloną świnią.", "context": "O jakościowych różnicach przyjemności" }
+      ]
+    },
+    {
+      "id": "comte",
+      "name": "Auguste Comte",
+      "dates": "1798–1857",
+      "era": "nowozytnosc",
+      "origin": "Montpellier (Francja)",
+      "tagline": "Pozytywizm i trzy stadia rozwoju wiedzy",
+      "importance": "secondary",
+      "tags": ["pozytywizm", "filozofia nauki", "socjologia"],
+      "description": "Twórca pozytywizmu i socjologii jako nauki. Głosił, że prawdziwa wiedza opiera się wyłącznie na faktach obserwowalnych i metodach nauk przyrodniczych.",
+      "concepts": [
+        { "term": "Pozytywizm", "definition": "jedyna prawdziwa wiedza to wiedza naukowa oparta na obserwacji i eksperymencie; metafizyka jest bezsensowna" },
+        { "term": "Trzy stadia (prawo trzech stadiów)", "definition": "ludzka myśl przechodzi przez teologiczne (bogowie), metafizyczne (abstrakcje) i pozytywne (nauka) stadium" },
+        { "term": "Hierarchia nauk", "definition": "matematyka → astronomia → fizyka → chemia → biologia → socjologia (od ogólnych do złożonych)" }
+      ],
+      "works": ["Kurs filozofii pozytywnej", "System polityki pozytywnej"],
+      "matura_tip": "Comte = pozytywizm, trzy stadia. Twórca słowa \"socjologia\". Odrzucenie metafizyki.",
+      "quotes": []
+    },
+    {
+      "id": "nietzsche",
+      "name": "Friedrich Nietzsche",
+      "dates": "1844–1900",
+      "era": "nowoczesnosc",
+      "origin": "Röcken (Niemcy)",
+      "tagline": "Bóg umarł, wola mocy i nadczłowiek – przewartościowanie wartości",
+      "importance": "core",
+      "tags": ["etyka", "nihilizm", "wola mocy", "egzystencjalizm"],
+      "description": "Filozof, filolog, krytyk kultury. Ogłosił \"śmierć Boga\" jako fakt kulturowy i wzywał do stworzenia nowych wartości. Jego twórczość jest wieloznaczna i literacka.",
+      "concepts": [
+        { "term": "\"Bóg umarł\"", "definition": "tradycyjne wartości religijne i metafizyczne straciły fundament – kultura musi stworzyć nowe wartości" },
+        { "term": "Wola mocy (Wille zur Macht)", "definition": "podstawowy popęd życia – dążenie do twórczości, wzrostu i samoprzezwyciężania, nie do dominacji nad innymi" },
+        { "term": "Nadczłowiek (Übermensch)", "definition": "ideał człowieka tworzącego własne wartości, wolnego od moralności stadnej – cel człowieczeństwa" },
+        { "term": "Wieczny powrót", "definition": "eksperyment myślowy: przeżyj tak, byś mógł chcieć przeżyć to samo nieskończoną ilość razy" },
+        { "term": "Moralność panów i niewolników", "definition": "moralność panów (aktywna, afirmuje życie) vs moralność niewolników (reaktywna, oparta na resentymencie)" },
+        { "term": "Nihilizm", "definition": "diagnoza epoki – utrata wartości po śmierci Boga; Nietzsche chciał go przezwyciężyć" }
+      ],
+      "works": ["Tako rzecze Zaratustra", "Poza dobrem i złem", "Z genealogii moralności", "Narodziny tragedii", "Ecce Homo"],
+      "matura_tip": "Nietzsche = śmierć Boga, wola mocy, nadczłowiek, wieczny powrót. Moralność panów vs niewolników – ważny dualizm.",
+      "quotes": [
+        { "text": "Bóg umarł. Bóg pozostaje martwy. I my go zabiliśmy.", "context": "Z Wiedzy radosnej – o upadku tradycyjnych wartości" }
+      ]
+    },
+    {
+      "id": "marks",
+      "name": "Karol Marks",
+      "dates": "1818–1883",
+      "era": "nowoczesnosc",
+      "origin": "Trewir (Niemcy)",
+      "tagline": "Materializm historyczny, walka klas i alienacja",
+      "importance": "core",
+      "tags": ["polityka", "ekonomia", "materializm", "alienacja"],
+      "description": "Filozof, ekonomista i rewolucjonista. Stworzył teorię materializmu historycznego i krytykę kapitalizmu. Jego myśl wywarła ogromny wpływ na historię XX wieku.",
+      "concepts": [
+        { "term": "Materializm historyczny", "definition": "siły ekonomiczne i stosunki produkcji (baza) determinują kulturę, prawo, religię i politykę (nadbudowa)" },
+        { "term": "Walka klas", "definition": "historia to historia konfliktów między klasami posiadającymi i nieposiadającymi środki produkcji" },
+        { "term": "Alienacja", "definition": "robotnik wyobcowany od produktu pracy, procesu pracy, innych ludzi i własnej gatunkowej istoty" },
+        { "term": "Ideologia", "definition": "system przekonań służący klasie panującej, ukrywający rzeczywiste stosunki wyzysku – \"opium dla ludu\" (religia)" },
+        { "term": "Nadwartość", "definition": "wartość tworzona przez pracę robotnika ponad jego wynagrodzenie – źródło zysku kapitalisty" }
+      ],
+      "works": ["Manifest komunistyczny (z Engelsem)", "Kapitał", "Rękopisy ekonomiczno-filozoficzne", "Tezy o Feuerbachu"],
+      "matura_tip": "Marks = materializm historyczny, alienacja, walka klas, baza i nadbudowa. Filozofia jako narzędzie zmiany świata.",
+      "quotes": [
+        { "text": "Filozofowie rozmaicie tylko interpretowali świat; idzie jednak o to, aby go zmienić.", "context": "Z Tez o Feuerbachu – o roli filozofii" }
+      ]
+    },
+    {
+      "id": "husserl",
+      "name": "Edmund Husserl",
+      "dates": "1859–1938",
+      "era": "wspolczesnosc",
+      "origin": "Prostějov (Czechy, dawna Austria)",
+      "tagline": "Fenomenologia – powrót do rzeczy samych",
+      "importance": "core",
+      "tags": ["fenomenologia", "epistemologia", "świadomość"],
+      "description": "Twórca fenomenologii – jednego z najważniejszych ruchów filozofii XX wieku. Głosił powrót do bezpośredniego doświadczenia świadomości, bez uprzedzeń.",
+      "concepts": [
+        { "term": "Fenomenologia", "definition": "nauka o strukturach czystej świadomości i sposób, w jaki rzeczy się w niej jawią" },
+        { "term": "Epoché (redukcja fenomenologiczna)", "definition": "\"wzięcie w nawias\" pytania o istnienie świata – skupienie na tym, jak rzeczy pojawiają się świadomości" },
+        { "term": "Intencjonalność", "definition": "świadomość zawsze jest skierowana ku czemuś – świadomość jest zawsze świadomością czegoś" },
+        { "term": "Lebenswelt", "definition": "\"świat życia\" – przedteoretyczny, przeżywany świat codziennego doświadczenia" }
+      ],
+      "works": ["Badania logiczne", "Idee I", "Medytacje kartezjańskie", "Kryzys nauk europejskich"],
+      "matura_tip": "Husserl = fenomenologia, epoché, intencjonalność. \"Powrót do rzeczy samych\" (zu den Sachen selbst).",
+      "quotes": []
+    },
+    {
+      "id": "scheler",
+      "name": "Max Scheler",
+      "dates": "1874–1928",
+      "era": "wspolczesnosc",
+      "origin": "Monachium (Niemcy)",
+      "tagline": "Fenomenologia wartości i hierarchia dóbr",
+      "importance": "secondary",
+      "tags": ["fenomenologia", "etyka", "wartości", "antropologia"],
+      "description": "Filozofa wartości i antropologii filozoficznej. Zastosował metodę fenomenologiczną do etyki i hierarchii wartości.",
+      "concepts": [
+        { "term": "Materialna etyka wartości", "definition": "wartości są obiektywne i poznawalne przez uczuciowe poznanie (nie przez rozum jak u Kanta)" },
+        { "term": "Hierarchia wartości", "definition": "wartości hedonistyczne → witalne → duchowe (estetyczne, poznawcze, prawne) → religijne (sacrum/profanum)" },
+        { "term": "Resentyment", "definition": "rozwinięcie Nietzschego: bezsilna zawiść jako motor fałszywych wartości moralnych" }
+      ],
+      "works": ["Formalismus w etyce i materialna etyka wartości", "Istota i formy sympatii", "Stanowisko człowieka w kosmosie"],
+      "matura_tip": "Scheler = materialna etyka wartości, hierarchia wartości. Polemika z formalizmem Kanta.",
+      "quotes": []
+    },
+    {
+      "id": "ingarden",
+      "name": "Roman Ingarden",
+      "dates": "1893–1970",
+      "era": "wspolczesnosc",
+      "origin": "Kraków (Polska)",
+      "tagline": "Ontologia dzieła sztuki i spór o idealizm",
+      "importance": "core",
+      "tags": ["fenomenologia", "estetyka", "ontologia", "polska filozofia"],
+      "description": "Najważniejszy polski fenomenolog, uczeń Husserla. Stworzył oryginalną ontologię dzieła sztuki i toczył polemikę z idealizmem Husserla.",
+      "concepts": [
+        { "term": "Spór o istnienie świata", "definition": "polemika z Husserlem – Ingarden bronił realizmu: świat istnieje niezależnie od świadomości" },
+        { "term": "Ontologia dzieła sztuki", "definition": "dzieło sztuki to byt intencjonalny, wielowarstwowy, różny od rzeczy fizycznych i od przeżyć" },
+        { "term": "Warstwy dzieła literackiego", "definition": "brzmień słownych, sensów, przedmiotów przedstawionych i wygląd schematycznych" },
+        { "term": "Konkretyzacja", "definition": "dopełnienie dzieła przez aktywnego odbiorcę podczas lektury" }
+      ],
+      "works": ["Spór o istnienie świata", "O dziele literackim", "Studia z estetyki"],
+      "matura_tip": "Ingarden = fenomenologia, ontologia dzieła sztuki, spór o idealizm. Jedyny Polak w podstawie programowej obok szkoły lwowsko-warszawskiej.",
+      "quotes": []
+    },
+    {
+      "id": "jaspers",
+      "name": "Karl Jaspers",
+      "dates": "1883–1969",
+      "era": "wspolczesnosc",
+      "origin": "Oldenburg (Niemcy)",
+      "tagline": "Egzystencjalizm i sytuacje graniczne",
+      "importance": "secondary",
+      "tags": ["egzystencjalizm", "sytuacje graniczne", "transcendencja"],
+      "description": "Psychiatra i filozof. Jeden z twórców egzystencjalizmu. Jego filozofia wyrosła z doświadczenia choroby i sytuacji ekstremalnych.",
+      "concepts": [
+        { "term": "Sytuacje graniczne", "definition": "śmierć, cierpienie, walka, wina – sytuacje, w których człowiek staje twarzą w twarz ze swoją skończonością i wolnością" },
+        { "term": "Egzystencja", "definition": "autentyczne, świadome istnienie jednostki – możliwa tylko w obliczu sytuacji granicznych" },
+        { "term": "Transcendencja (Ogarniające)", "definition": "granica, którą świadomość napotyka i której nie może przekroczyć – Bóg jako Ogarniające" },
+        { "term": "Szyfry transcendencji", "definition": "sztuka, mit, filozofia jako szyfry wskazujące na transcendencję, której nie da się wypowiedzieć wprost" }
+      ],
+      "works": ["Filozofia", "Rozum i egzystencja", "O prawdzie"],
+      "matura_tip": "Jaspers = sytuacje graniczne, egzystencja, transcendencja. Egzystencjalizm teistyczny.",
+      "quotes": []
+    },
+    {
+      "id": "sartre",
+      "name": "Jean-Paul Sartre",
+      "dates": "1905–1980",
+      "era": "wspolczesnosc",
+      "origin": "Paryż (Francja)",
+      "tagline": "Egzystencja poprzedza esencję – skazani na wolność",
+      "importance": "core",
+      "tags": ["egzystencjalizm", "etyka", "ontologia", "wolność"],
+      "description": "Francuski filozof, pisarz i dramaturg. Najważniejszy przedstawiciel egzystencjalizmu ateistycznego. Odmówił Nagrody Nobla w 1964.",
+      "concepts": [
+        { "term": "Egzystencja poprzedza esencję", "definition": "człowiek najpierw istnieje, potem sam tworzy swoją istotę przez wolne wybory – nie ma natury ludzkiej z góry danej" },
+        { "term": "Radykalna wolność", "definition": "jesteśmy \"skazani na wolność\" – nie możemy uciec od wyboru; nawet brak wyboru jest wyborem" },
+        { "term": "Zła wiara (mauvaise foi)", "definition": "ucieczka od wolności przez udawanie, że jest się zdeterminowanym przez rolę społeczną, naturę lub innych" },
+        { "term": "Bycie dla siebie (pour-soi) i bycie w sobie (en-soi)", "definition": "człowiek (pour-soi, świadomość) vs rzeczy (en-soi, byt bez świadomości)" },
+        { "term": "\"Piekło to inni\"", "definition": "spojrzenie Drugiego uprzedmiotawia nas – relacja z innymi jest źródłem konfliktów" }
+      ],
+      "works": ["Byt i nicość", "Egzystencjalizm jest humanizmem", "Mdłości", "Przy drzwiach zamkniętych"],
+      "matura_tip": "Sartre = egzystencja przed esencją, skazani na wolność, zła wiara. \"Piekło to inni\" z Przy drzwiach zamkniętych.",
+      "quotes": [
+        { "text": "Jesteśmy skazani na wolność.", "context": "O nieuchronności wyboru i odpowiedzialności" },
+        { "text": "Piekło to inni.", "context": "Z Przy drzwiach zamkniętych – o relacjach z Drugim" }
+      ]
+    },
+    {
+      "id": "beauvoir",
+      "name": "Simone de Beauvoir",
+      "dates": "1908–1986",
+      "era": "wspolczesnosc",
+      "origin": "Paryż (Francja)",
+      "tagline": "Nikt nie rodzi się kobietą – egzystencjalizm feministyczny",
+      "importance": "core",
+      "tags": ["feminizm", "egzystencjalizm", "etyka", "płeć kulturowa"],
+      "description": "Francuska filozofka, pisarka i działaczka feministyczna. Partnerka Sartre'a. Zastosowała egzystencjalizm do analizy sytuacji kobiet.",
+      "concepts": [
+        { "term": "\"Nikt nie rodzi się kobietą, lecz nią zostaje\"", "definition": "płeć kulturowa (gender) to konstrukt społeczny, nie biologiczne przeznaczenie" },
+        { "term": "Kobieta jako Inny (Drugi)", "definition": "mężczyzna definiowany jest jako Podmiot, kobieta jako Inny – obca, relatywna, zależna" },
+        { "term": "Sytuacja", "definition": "egzystencjalna wolność jest zawsze ograniczona przez konkretne warunki społeczne, historyczne i cielesne" },
+        { "term": "Etyka niejednoznaczności", "definition": "akceptacja ludzkiej ambiwalencji – jesteśmy jednocześnie wolni i uwarunkowani" }
+      ],
+      "works": ["Druga płeć", "Etyka niejednoznaczności", "Mandaryni"],
+      "matura_tip": "De Beauvoir = feminizm egzystencjalny, kobieta jako Inny, gender jako konstrukt. Pierwsza filozofka w podstawie programowej.",
+      "quotes": [
+        { "text": "Nikt nie rodzi się kobietą, lecz się nią staje.", "context": "Z Drugiej płci – o społecznym konstruowaniu płci" }
+      ]
+    },
+    {
+      "id": "moore",
+      "name": "George Edward Moore",
+      "dates": "1873–1958",
+      "era": "wspolczesnosc",
+      "origin": "Upper Norwood (Anglia)",
+      "tagline": "Dobro niedefiniowalne i zdrowy rozsądek",
+      "importance": "secondary",
+      "tags": ["etyka", "metaetyka", "analityczna", "dobro"],
+      "description": "Brytyjski filozof analityczny, współtwórca filozofii analitycznej. Krytyk naturalizmu etycznego i obrońca filozofii zdrowego rozsądku.",
+      "concepts": [
+        { "term": "Błąd naturalistyczny", "definition": "próba zdefiniowania dobra przez własności naturalne (np. dobro = przyjemność) jest błędem – dobro jest niedefiniowalne" },
+        { "term": "Dobro jako własność nienatralna", "definition": "dobro jest prostą, niedefiniowaną własnością, poznawaną przez intuicję moralną" },
+        { "term": "Filozofia zdrowego rozsądku", "definition": "twierdzenia codziennego zdrowego rozsądku (istnieje świat zewnętrzny) mają pierwszeństwo przed argumentami sceptyków" }
+      ],
+      "works": ["Principia Ethica", "Obrona zdrowego rozsądku"],
+      "matura_tip": "Moore = błąd naturalistyczny, dobro niedefiniowalne. Twórca metaetyki jako dyscypliny.",
+      "quotes": []
+    },
+    {
+      "id": "russell",
+      "name": "Bertrand Russell",
+      "dates": "1872–1970",
+      "era": "wspolczesnosc",
+      "origin": "Trellech (Walia)",
+      "tagline": "Logika filozoficzna i atomizm logiczny",
+      "importance": "secondary",
+      "tags": ["logika", "filozofia analityczna", "epistemologia", "pacyfizm"],
+      "description": "Matematyk, logik i filozof. Współtwórca filozofii analitycznej i logiki matematycznej. Laureat Nagrody Nobla w dziedzinie literatury (1950). Pacyfista.",
+      "concepts": [
+        { "term": "Atomizm logiczny", "definition": "świat składa się z faktów atomowych; zadaniem filozofii jest analiza logiczna zdań opisujących te fakty" },
+        { "term": "Teoria deskrypcji", "definition": "zdania zawierające opisy określone (\"obecny król Francji\") można analizować logicznie bez presupozycji istnienia" },
+        { "term": "Wiedza przez znajomość i wiedza przez opis", "definition": "bezpośrednie poznanie (sense-data) vs poznanie pośrednie przez opis" }
+      ],
+      "works": ["Principia Mathematica (z Whiteheadem)", "Problemy filozofii", "Historia filozofii Zachodu"],
+      "matura_tip": "Russell = atomizm logiczny, filozofia analityczna. Historia filozofii Zachodu to świetne źródło do maturalnych powtórek.",
+      "quotes": []
+    },
+    {
+      "id": "wittgenstein",
+      "name": "Ludwig Wittgenstein",
+      "dates": "1889–1951",
+      "era": "wspolczesnosc",
+      "origin": "Wiedeń (Austria)",
+      "tagline": "Granice języka i gry językowe – dwa okresy filozofii",
+      "importance": "core",
+      "tags": ["filozofia języka", "analityczna", "logika", "gry językowe"],
+      "description": "Austriacki filozof, jeden z najbardziej wpływowych XX wieku. Dwa okresy: wczesny (Tractatus – granice języka) i późny (Dociekania – gry językowe).",
+      "concepts": [
+        { "term": "\"O czym nie można mówić, o tym trzeba milczeć\"", "definition": "granice języka sensownego pokrywają się z granicami świata; metafizyka jest bezsensowna" },
+        { "term": "Obraz świata (teoria obrazu)", "definition": "zdanie jest obrazem faktu – ma taką samą formę logiczną jak to, co opisuje (wczesny okres)" },
+        { "term": "Gry językowe", "definition": "znaczenie słowa to jego użycie w konkretnej praktyce społecznej – nie ma jednego znaczenia (późny okres)" },
+        { "term": "Prywatny język jest niemożliwy", "definition": "język jest z natury publiczny; nie można mieć języka dostępnego tylko dla jednej osoby" }
+      ],
+      "works": ["Tractatus logico-philosophicus", "Dociekania filozoficzne"],
+      "matura_tip": "Wittgenstein = dwa okresy! Tractatus: granice języka = granice świata. Dociekania: gry językowe, znaczenie = użycie.",
+      "quotes": [
+        { "text": "O czym nie można mówić, o tym trzeba milczeć.", "context": "Ostatnie zdanie Traktatu – o granicach języka i metafizyki" }
+      ]
+    },
+    {
+      "id": "twardowski",
+      "name": "Kazimierz Twardowski",
+      "dates": "1866–1938",
+      "era": "wspolczesnosc",
+      "origin": "Wiedeń (Austria) / Lwów (Polska)",
+      "tagline": "Założyciel szkoły lwowsko-warszawskiej",
+      "importance": "secondary",
+      "tags": ["polska filozofia", "szkoła lwowsko-warszawska", "logika", "psychologia"],
+      "description": "Uczeń Brentany, założyciel szkoły lwowsko-warszawskiej. Stworzył tradycję ścisłości i jasności w polskiej filozofii, łącząc logikę z psychologią opisową.",
+      "concepts": [
+        { "term": "Szkoła lwowsko-warszawska", "definition": "polska szkoła filozoficzna ceniąca ścisłość, logikę i analizę pojęć; alternatywa dla spekulatywnej metafizyki" },
+        { "term": "Treść i przedmiot przedstawienia", "definition": "rozróżnienie między tym, jak coś jest przedstawiane (treść), a tym, co jest przedstawiane (przedmiot)" },
+        { "term": "Ścisłość filozoficzna", "definition": "filozofia powinna być tak precyzyjna jak nauki ścisłe – postulat jasności i jednoznaczności" }
+      ],
+      "works": ["O treści i przedmiocie przedstawień", "Wyobrażenia i pojęcia"],
+      "matura_tip": "Twardowski = założyciel szkoły lwowsko-warszawskiej. Polska tradycja filozofii analitycznej.",
+      "quotes": []
+    },
+    {
+      "id": "kotarbinski",
+      "name": "Tadeusz Kotarbiński",
+      "dates": "1886–1981",
+      "era": "wspolczesnosc",
+      "origin": "Warszawa (Polska)",
+      "tagline": "Reizm i etyka niezależna – praxis i konkretyzm",
+      "importance": "secondary",
+      "tags": ["polska filozofia", "reizm", "etyka", "praksologia"],
+      "description": "Uczeń Twardowskiego, najważniejszy przedstawiciel szkoły lwowsko-warszawskiej. Twórca reizmu (konkretyzmu) i praksologii.",
+      "concepts": [
+        { "term": "Reizm (konkretyzm)", "definition": "istnieją tylko rzeczy konkretne (rezy); abstrakty i pojęcia ogólne to skróty mowy, nie samodzielne byty" },
+        { "term": "Praksologia", "definition": "nauka o sprawnym działaniu – teoria skutecznej, ekonomicznej i etycznej praktyki" },
+        { "term": "Etyka niezależna", "definition": "etyka bez metafizycznych i religijnych fundamentów – oparta na naturalnych uczuciach moralnych i rozumie" },
+        { "term": "Spolegliwy opiekun", "definition": "ideał moralny: godny zaufania, troskliwy, odpowiedzialny człowiek – nie bohater, lecz rzetelny towarzysz" }
+      ],
+      "works": ["Traktat o dobrej robocie", "Medytacje o życiu godziwym", "Elementy teorii poznania"],
+      "matura_tip": "Kotarbiński = reizm, praksologia, etyka niezależna, spolegliwy opiekun. Ważny dla polskiej filozofii XX w.",
+      "quotes": []
+    },
+    {
+      "id": "ajdukiewicz",
+      "name": "Kazimierz Ajdukiewicz",
+      "dates": "1890–1963",
+      "era": "wspolczesnosc",
+      "origin": "Tarnopol (Galicja, dziś Ukraina)",
+      "tagline": "Radykalny konwencjonalizm i semantyczna teoria języka",
+      "importance": "secondary",
+      "tags": ["polska filozofia", "epistemologia", "język", "konwencjonalizm"],
+      "description": "Uczeń Twardowskiego. Twórca oryginalnej teorii języka i konwencjonalizmu epistemologicznego.",
+      "concepts": [
+        { "term": "Radykalny konwencjonalizm", "definition": "obraz świata zależy od języka (aparatury pojęciowej), który jest konwencjonalny – różne języki dają różne obrazy świata" },
+        { "term": "Aparatura pojęciowa", "definition": "system pojęć i reguł znaczeniowych determinujący, jak postrzegamy i opisujemy rzeczywistość" }
+      ],
+      "works": ["Język i poznanie", "Zagadnienia i kierunki filozofii"],
+      "matura_tip": "Ajdukiewicz = konwencjonalizm, aparatura pojęciowa. Prekursor relatywizmu pojęciowego.",
+      "quotes": []
+    },
+    {
+      "id": "czezowski",
+      "name": "Tadeusz Czeżowski",
+      "dates": "1889–1981",
+      "era": "wspolczesnosc",
+      "origin": "Wiedeń (Austria) / Wilno (Polska)",
+      "tagline": "Logika i etyka w szkole lwowsko-warszawskiej",
+      "importance": "secondary",
+      "tags": ["polska filozofia", "logika", "etyka", "epistemologia"],
+      "description": "Uczeń Twardowskiego, profesor w Wilnie i Toruniu. Zajmował się logiką, teorią poznania i etyką w duchu szkoły lwowsko-warszawskiej.",
+      "concepts": [
+        { "term": "Etyka jako nauka", "definition": "etykę można uprawiać naukowo, precyzyjnie analizując pojęcia moralne" },
+        { "term": "Klasyczna definicja prawdy", "definition": "zdanie jest prawdziwe, gdy mówi, że tak jest, jak jest – arystotelowska korespondencja" }
+      ],
+      "works": ["Logika", "O metafizyce, jej kierunkach i zagadnieniach", "Filozofia na rozdrożu"],
+      "matura_tip": "Czeżowski = szkoła lwowsko-warszawska, etyka naukowa. Mniej centralny niż Kotarbiński czy Ajdukiewicz.",
+      "quotes": []
+    },
+    {
+      "id": "tatarkiewicz",
+      "name": "Władysław Tatarkiewicz",
+      "dates": "1886–1980",
+      "era": "wspolczesnosc",
+      "origin": "Warszawa (Polska)",
+      "tagline": "Historia filozofii i estetyka – szczęście i piękno",
+      "importance": "secondary",
+      "tags": ["polska filozofia", "historia filozofii", "estetyka", "etyka"],
+      "description": "Historyk filozofii i estetyk. Autor fundamentalnej Historii filozofii używanej do dziś. Badał pojęcia szczęścia i piękna.",
+      "concepts": [
+        { "term": "Analiza pojęcia szczęścia", "definition": "wyróżnił cztery rozumienia szczęścia: pomyślność losu, intensywna radość, posiadanie najwyższych dóbr, zadowolenie z całości życia" },
+        { "term": "Pięć rozumień piękna", "definition": "piękno jako: własność estetyczna, forma harmoniczna, przyjemność estetyczna, doskonałość, wartość pozytywna" }
+      ],
+      "works": ["Historia filozofii (3 tomy)", "O szczęściu", "Dzieje sześciu pojęć"],
+      "matura_tip": "Tatarkiewicz = Historia filozofii (podstawowe źródło maturalne!), analiza szczęścia i piękna.",
+      "quotes": []
+    },
+    {
+      "id": "empedokles",
+      "name": "Empedokles",
+      "dates": "ok. 494–434 p.n.e.",
+      "era": "starozytnosc",
+      "origin": "Akragas (Sycylia)",
+      "tagline": "Cztery żywioły i dwie siły – miłość i niezgoda",
+      "importance": "secondary",
+      "tags": ["presokratycy", "kosmologia", "żywioły"],
+      "description": "Filozof i lekarz. Odrzucił jeden arche – twierdził, że rzeczywistość składa się z czterech wiecznych żywiołów połączonych i rozdzielanych przez dwie siły.",
+      "concepts": [
+        { "term": "Cztery żywioły (korzenie)", "definition": "ogień, woda, ziemia, powietrze – cztery wieczne, niezmienne elementy rzeczywistości" },
+        { "term": "Miłość i Niezgoda", "definition": "dwie kosmiczne siły: Miłość (łączy żywioły) i Niezgoda (rozdziela) – napędzają cykliczny ruch kosmosu" }
+      ],
+      "works": ["O naturze", "Oczyszczenia (fragmenty)"],
+      "matura_tip": "Empedokles = cztery żywioły + miłość i niezgoda. Poprzednik atomistów.",
+      "quotes": []
+    },
+    {
+      "id": "leucyp",
+      "name": "Leucyp",
+      "dates": "ok. V w. p.n.e.",
+      "era": "starozytnosc",
+      "origin": "Abdera lub Milet (Grecja)",
+      "tagline": "Współtwórca atomizmu z Demokrytem",
+      "importance": "secondary",
+      "tags": ["presokratycy", "atomizm"],
+      "description": "Pierwszy atomista, nauczyciel Demokryta. Niewiele wiadomo o jego życiu i poglądach – znany głównie przez pryzmat myśli Demokryta.",
+      "concepts": [
+        { "term": "Atomizm (współtwórca)", "definition": "wraz z Demokrytem głosił, że wszystko składa się z atomów i próżni" },
+        { "term": "Zasada dostatecznej przyczyny", "definition": "\"Żadna rzecz nie powstaje bez przyczyny, lecz wszystko z przyczyny i z konieczności\"" }
+      ],
+      "works": ["Wielki Wielkoświat (przypisywany)"],
+      "matura_tip": "Leucyp = zazwyczaj wymieniany razem z Demokrytem jako współtwórca atomizmu. Mniejsza rola na maturze.",
+      "quotes": []
+    }
+  ],
+  "eras": [
+    { "id": "starozytnosc", "label": "Starożytność", "range": "VI w. p.n.e. – V w. n.e.", "color": "teal" },
+    { "id": "sredniowiecze", "label": "Średniowiecze", "range": "V – XV w.", "color": "purple" },
+    { "id": "nowozytnosc", "label": "Nowożytność", "range": "XVI – XVIII w.", "color": "amber" },
+    { "id": "nowoczesnosc", "label": "XIX wiek", "range": "XIX w.", "color": "coral" },
+    { "id": "wspolczesnosc", "label": "XX wiek", "range": "XX w.", "color": "blue" }
+  ],
+  "quiz": {
+    "multiple_choice": [
+      {
+        "id": "q1",
+        "question": "Który filozof twierdził, że arche (pierwsza zasada) to woda?",
+        "correct": "Tales z Miletu",
+        "options": ["Tales z Miletu", "Anaksymenes", "Heraklit", "Empedokles"],
+        "explanation": "Tales z Miletu, pierwszy zachodni filozof, głosił że woda jest tworzywem wszystkiego. Anaksymenes wybrał powietrze, Heraklit ogień, a Empedokles uznał cztery żywioły."
+      },
+      {
+        "id": "q2",
+        "question": "Co oznacza pojęcie 'cogito ergo sum'?",
+        "correct": "Myślę, więc jestem",
+        "options": ["Myślę, więc jestem", "Wiem, że nic nie wiem", "Byt jest, niebytu nie ma", "Wszystko płynie"],
+        "explanation": "Cogito ergo sum (Myślę, więc jestem) to fundamentalna pewność Descartesa po metodycznym wątpieniu. Jedyną rzeczą, której nie można zaprzeczyć, jest sam akt myślenia."
+      },
+      {
+        "id": "q3",
+        "question": "Czym jest 'alegoria jaskini' Platona?",
+        "correct": "Obraz ludzi widzących jedynie cienie prawdziwego bytu – idei",
+        "options": [
+          "Obraz ludzi widzących jedynie cienie prawdziwego bytu – idei",
+          "Metafora niewiedzy Sokratesa",
+          "Symbol siły woli mocy Nietzschego",
+          "Opis stanu natury według Rousseau"
+        ],
+        "explanation": "W Państwie Platon opisuje więźniów przykutych w jaskini, widzących jedynie cienie rzucane na ścianę. Cienie symbolizują świat materialny, a światło na zewnątrz – prawdziwy byt idei."
+      },
+      {
+        "id": "q4",
+        "question": "Jak brzmi imperatyw kategoryczny Kanta?",
+        "correct": "Postępuj tylko według tej maksymy, którą mógłbyś chcieć uczynić powszechnym prawem",
+        "options": [
+          "Postępuj tylko według tej maksymy, którą mógłbyś chcieć uczynić powszechnym prawem",
+          "Czyń innym to, co chciałbyś, żeby tobie czyniono",
+          "Działaj tak, by zmaksymalizować szczęście jak największej liczby ludzi",
+          "Żyj zgodnie z naturą i rozumem"
+        ],
+        "explanation": "Imperatyw kategoryczny Kanta to formalne kryterium moralne oparte na rozumie, a nie skłonnościach. Działanie jest moralne, gdy jego zasada może stać się powszechnym prawem dla wszystkich."
+      },
+      {
+        "id": "q5",
+        "question": "Który filozof głosił, że 'egzystencja poprzedza esencję'?",
+        "correct": "Jean-Paul Sartre",
+        "options": ["Jean-Paul Sartre", "Albert Camus", "Immanuel Kant", "Friedrich Nietzsche"],
+        "explanation": "Sartre głosił, że człowiek najpierw istnieje, a potem sam tworzy swoją istotę przez wolne wybory. Nie ma z góry danej natury ludzkiej – jesteśmy 'skazani na wolność'."
+      },
+      {
+        "id": "q6",
+        "question": "Co to jest 'tabula rasa' według Locke'a?",
+        "correct": "Umysł jako czysta tablica – cała wiedza pochodzi z doświadczenia",
+        "options": [
+          "Umysł jako czysta tablica – cała wiedza pochodzi z doświadczenia",
+          "Wrodzone idee obecne w umyśle od urodzenia",
+          "Stan natury przed powstaniem społeczeństwa",
+          "Metoda oczyszczania umysłu z przesądów"
+        ],
+        "explanation": "Locke odrzucił kartezjańskie idee wrodzone. Według niego umysł to czysta tablica (tabula rasa) – cała wiedza pochodzi z doświadczenia zmysłowego i refleksji nad nim."
+      },
+      {
+        "id": "q7",
+        "question": "Ile dróg do istnienia Boga wymienił Tomasz z Akwinu?",
+        "correct": "Pięć",
+        "options": ["Trzy", "Cztery", "Pięć", "Siedem"],
+        "explanation": "Tomasz z Akwinu sformułował pięć dróg (Quinque viae): argument z ruchu, z przyczynowości, z konieczności, ze stopni doskonałości i z celowości (teleologiczny)."
+      },
+      {
+        "id": "q8",
+        "question": "Co oznacza 'panta rhei' Heraklita?",
+        "correct": "Wszystko płynie – rzeczywistość jest w ciągłej zmianie",
+        "options": [
+          "Wszystko płynie – rzeczywistość jest w ciągłej zmianie",
+          "Byt jest jeden i niezmienny",
+          "Człowiek jest miarą wszystkich rzeczy",
+          "Wiem, że nic nie wiem"
+        ],
+        "explanation": "Panta rhei (wszystko płynie) to fundamentalna teza Heraklita o ciągłej zmienności rzeczywistości. Ilustruje ją metafora rzeki: nie można wejść dwa razy do tej samej rzeki."
+      },
+      {
+        "id": "q9",
+        "question": "Który filozof stworzył pojęcie 'woli mocy' (Wille zur Macht)?",
+        "correct": "Friedrich Nietzsche",
+        "options": ["Friedrich Nietzsche", "Arthur Schopenhauer", "Karl Marx", "Georg Hegel"],
+        "explanation": "Wola mocy to centralne pojęcie filozofii Nietzschego – podstawowy popęd życia rozumiany jako dążenie do twórczości i samoprzezwyciężania, nie do władzy nad innymi."
+      },
+      {
+        "id": "q10",
+        "question": "Co głosi utylitaryzm Johna Stuarta Milla?",
+        "correct": "Dobre jest to, co maksymalizuje szczęście jak największej liczby ludzi",
+        "options": [
+          "Dobre jest to, co maksymalizuje szczęście jak największej liczby ludzi",
+          "Dobre jest to, co wynika z rozumnego obowiązku",
+          "Dobre jest to, co zgodne z wolą Bożą",
+          "Dobre jest to, co prowadzi do cnoty złotego środka"
+        ],
+        "explanation": "Utylitaryzm Milla (i Benthama) ocenia działania przez ich skutki – dobre jest to, co przynosi największe szczęście największej liczbie ludzi. Mill dodał rozróżnienie na wyższe i niższe przyjemności."
+      },
+      {
+        "id": "q11",
+        "question": "Czym jest 'zła wiara' (mauvaise foi) według Sartre'a?",
+        "correct": "Ucieczką od wolności przez udawanie, że jest się zdeterminowanym",
+        "options": [
+          "Ucieczką od wolności przez udawanie, że jest się zdeterminowanym",
+          "Kłamstwem moralnym wobec innych ludzi",
+          "Odrzuceniem Boga i wartości moralnych",
+          "Stanem alienacji w kapitalizmie"
+        ],
+        "explanation": "Zła wiara (mauvaise foi) to sartre'owskie pojęcie opisujące ucieczkę od wolności – człowiek udaje, że jego rola, natura lub okoliczności determinują jego działania, by uniknąć odpowiedzialności."
+      },
+      {
+        "id": "q12",
+        "question": "Kto jest autorem słów: 'Nikt nie rodzi się kobietą, lecz się nią staje'?",
+        "correct": "Simone de Beauvoir",
+        "options": ["Simone de Beauvoir", "Jean-Paul Sartre", "Virginia Woolf", "Betty Friedan"],
+        "explanation": "To fundamentalne zdanie z Drugiej płci (1949) Simone de Beauvoir. Twierdzi ona, że płeć kulturowa (gender) to konstrukt społeczny i historyczny, a nie biologiczne przeznaczenie."
+      },
+      {
+        "id": "q13",
+        "question": "Co to jest 'apeiron' według Anaksymandra?",
+        "correct": "Nieokreślony bezkres – pierwsza zasada (arche) rzeczywistości",
+        "options": [
+          "Nieokreślony bezkres – pierwsza zasada (arche) rzeczywistości",
+          "Niepodzielna cząstka materii",
+          "Stan doskonałego spokoju ducha",
+          "Forma logiczna wnioskowania"
+        ],
+        "explanation": "Anaksymander uznał, że arche nie może być żaden konkretny żywioł (jak woda u Talesa), lecz apeiron – nieokreślony, wieczny bezkres, z którego wyłaniają się wszystkie przeciwieństwa."
+      },
+      {
+        "id": "q14",
+        "question": "Który filozof stworzył dialektykę teza-antyteza-synteza?",
+        "correct": "Georg Wilhelm Friedrich Hegel",
+        "options": ["Georg Wilhelm Friedrich Hegel", "Karol Marks", "Immanuel Kant", "Johann Fichte"],
+        "explanation": "Dialektyka heglowska opisuje rozwój przez sprzeczność: teza zostaje zaprzeczona przez antytezę, a synteza godzi obie strony na wyższym poziomie. Marks przejął tę metodę, odwracając ją materialnie."
+      },
+      {
+        "id": "q15",
+        "question": "Co oznacza 'esse est percipi' Berkeleya?",
+        "correct": "Istnieć to być postrzeganym",
+        "options": [
+          "Istnieć to być postrzeganym",
+          "Myślę, więc jestem",
+          "Byt jest, niebytu nie ma",
+          "Istota poprzedza egzystencję"
+        ],
+        "explanation": "Berkeley głosił radykalny idealizm: rzeczy nie istnieją samodzielnie jako materia, lecz tylko jako postrzeżenia w umysłach. Stąd esse est percipi – być znaczy być postrzeganym."
+      }
+    ],
+    "quote_matching": [
+      {
+        "id": "qm1",
+        "quote": "Wiem, że nic nie wiem.",
+        "correct": "Sokrates",
+        "options": ["Sokrates", "Platon", "Arystoteles", "Epikur"],
+        "explanation": "To słynna sentencja Sokratesa wyrażająca postawę intelektualnej pokory – warunek prawdziwej mądrości. Znamy ją z dialogów Platona."
+      },
+      {
+        "id": "qm2",
+        "quote": "Człowiek jest tylko trzciną, najsłabszą w przyrodzie, ale trzciną myślącą.",
+        "correct": "Blaise Pascal",
+        "options": ["Blaise Pascal", "René Descartes", "Jean-Jacques Rousseau", "Immanuel Kant"],
+        "explanation": "Z Myśli (Pensées) Pascala. Człowiek jest fizycznie słaby, ale jego wielkość polega na świadomości i myśleniu – nawet umierając, myśli i wie, że umiera."
+      },
+      {
+        "id": "qm3",
+        "quote": "Człowiek rodzi się wolny, a wszędzie jest w okowach.",
+        "correct": "Jean-Jacques Rousseau",
+        "options": ["Jean-Jacques Rousseau", "John Locke", "Voltaire", "Immanuel Kant"],
+        "explanation": "Otwierające zdanie Umowy społecznej Rousseau. Człowiek z natury jest wolny, ale cywilizacja, własność prywatna i nierówności społeczne go zniewolił."
+      },
+      {
+        "id": "qm4",
+        "quote": "Bóg umarł. Bóg pozostaje martwy. I my go zabiliśmy.",
+        "correct": "Friedrich Nietzsche",
+        "options": ["Friedrich Nietzsche", "Karl Marx", "Jean-Paul Sartre", "Auguste Comte"],
+        "explanation": "Z Wiedzy radosnej Nietzschego. Nie jest to twierdzenie teologiczne, lecz diagnoza kulturowa: tradycyjne wartości religijne i metafizyczne straciły swój fundament."
+      },
+      {
+        "id": "qm5",
+        "quote": "Filozofowie rozmaicie tylko interpretowali świat; idzie jednak o to, aby go zmienić.",
+        "correct": "Karol Marks",
+        "options": ["Karol Marks", "Friedrich Engels", "Georg Hegel", "Auguste Comte"],
+        "explanation": "Jedenasta z Tez o Feuerbachu Marksa. Wyraża jego przekonanie, że filozofia powinna być narzędziem rewolucyjnej zmiany świata, a nie tylko jego opisu."
+      },
+      {
+        "id": "qm6",
+        "quote": "Jesteśmy skazani na wolność.",
+        "correct": "Jean-Paul Sartre",
+        "options": ["Jean-Paul Sartre", "Albert Camus", "Simone de Beauvoir", "Karl Jaspers"],
+        "explanation": "Centralna teza egzystencjalizmu Sartre'a. Nie możemy uciec od wolności i odpowiedzialności – nawet rezygnacja z wyboru jest wyborem."
+      },
+      {
+        "id": "qm7",
+        "quote": "O czym nie można mówić, o tym trzeba milczeć.",
+        "correct": "Ludwig Wittgenstein",
+        "options": ["Ludwig Wittgenstein", "Bertrand Russell", "George Moore", "Edmund Husserl"],
+        "explanation": "Ostatnie zdanie Tractatus logico-philosophicus Wittgensteina. Wyznacza granicę języka sensownego: metafizyka i etyka nie dają się wyrazić zdaniami i o tych sprawach należy milczeć."
+      },
+      {
+        "id": "qm8",
+        "quote": "Nie można wejść dwa razy do tej samej rzeki.",
+        "correct": "Heraklit z Efezu",
+        "options": ["Heraklit z Efezu", "Parmenides z Elei", "Tales z Miletu", "Demokryt"],
+        "explanation": "Słynna metafora Heraklita ilustrująca panta rhei – ciągłą zmienność rzeczywistości. Rzeka ciągle płynie, więc za drugim razem jest już inną rzeką."
+      },
+      {
+        "id": "qm9",
+        "quote": "Niespokojne jest serce nasze, dopóki nie spocznie w Tobie.",
+        "correct": "Święty Augustyn",
+        "options": ["Święty Augustyn", "Święty Tomasz z Akwinu", "Plotyn", "Święty Anzelm"],
+        "explanation": "Z Wyznań (Confessiones) św. Augustyna – pierwszej filozoficznej autobiografii. Wyraża augustiańską antropologię: człowiek jest stworzony dla Boga i w Nim jedynie może znaleźć spokój."
+      },
+      {
+        "id": "qm10",
+        "quote": "Postępuj tak, jakbyś chciał, żeby twoja maksyma stała się prawem powszechnym.",
+        "correct": "Immanuel Kant",
+        "options": ["Immanuel Kant", "John Stuart Mill", "John Locke", "Arystoteles"],
+        "explanation": "Imperatyw kategoryczny Kanta z Uzasadnienia metafizyki moralności. Formalne, racjonalne kryterium moralności – działaj tak, by zasada twojego działania mogła stać się powszechnym prawem."
+      },
+      {
+        "id": "qm11",
+        "quote": "Co rozumne, to rzeczywiste; co rzeczywiste, to rozumne.",
+        "correct": "Georg Wilhelm Friedrich Hegel",
+        "options": ["Georg Wilhelm Friedrich Hegel", "Immanuel Kant", "Baruch Spinoza", "Gottfried Leibniz"],
+        "explanation": "Z Zasad filozofii prawa Hegla. Wyraża idealistyczny pogląd, że rzeczywistość jest racjonalna, a historia to realizacja rozumu (Ducha Absolutnego)."
+      },
+      {
+        "id": "qm12",
+        "quote": "Nikt nie rodzi się kobietą, lecz się nią staje.",
+        "correct": "Simone de Beauvoir",
+        "options": ["Simone de Beauvoir", "Jean-Paul Sartre", "Judith Butler", "Virginia Woolf"],
+        "explanation": "Z Drugiej płci de Beauvoir. Fundamentalne zdanie feminizmu egzystencjalnego: kobiecość nie jest biologicznym przeznaczeniem, lecz konstruktem społeczno-kulturowym."
+      },
+      {
+        "id": "qm13",
+        "quote": "Nie brak nam czasu, lecz go trwonimy.",
+        "correct": "Seneka Młodszy",
+        "options": ["Seneka Młodszy", "Marek Aureliusz", "Epiktet", "Epikur"],
+        "explanation": "Z traktatu O krótkim życiu Seneki. Stoicki postulat: czas jest wystarczający, jeśli się nim mądrze gospodaruje – problemem jest jego marnotrawstwo."
+      },
+      {
+        "id": "qm14",
+        "quote": "Lepiej być niezadowolonym Sokratesem niż zadowoloną świnią.",
+        "correct": "John Stuart Mill",
+        "options": ["John Stuart Mill", "Jeremy Bentham", "Arystoteles", "Epikur"],
+        "explanation": "Mill w Utylitaryzmie odpowiada na zarzut, że utylitaryzm redukuje człowieka do zwierzęcia. Rozróżnia wyższe (intelektualne) i niższe (zmysłowe) przyjemności – te pierwsze są cenniejsze."
+      }
+    ]
+  }
+}
