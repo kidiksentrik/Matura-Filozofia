@@ -20,6 +20,10 @@ export interface Philosopher {
   importance: Importance;
   tags: string[];
   description: string;
+  description_short: string;
+  description_full: string;
+  context: string;
+  legacy: string;
   concepts: Concept[];
   works: string[];
   matura_tip: string;

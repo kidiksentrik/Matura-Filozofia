@@ -46,7 +46,7 @@ export default function SearchPage() {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Wpisz imię filozofa lub pojęcie..."
-            className="w-full bg-[var(--bg-secondary)] border border-[var(--border)] rounded-xl py-3 pl-10 pr-10 text-sm focus:outline-none focus:border-[var(--accent-teal)] transition-all-fast"
+            className="w-full glass border border-[var(--border)] rounded-xl py-3 pl-10 pr-10 text-sm focus:outline-none focus:border-[var(--accent-teal)] focus:ring-1 focus:ring-[var(--accent-teal)]/30 transition-all-fast shadow-sm"
           />
           <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 text-[var(--text-muted)]" size={18} />
           {query && (
@@ -81,7 +81,8 @@ export default function SearchPage() {
             <button
               key={p.id}
               onClick={() => handlePhilosopherClick(p)}
-              className="w-full bg-[var(--bg-secondary)] border border-[var(--border)] rounded-xl p-4 flex items-start gap-4 text-left transition-all-fast active:scale-[0.98]"
+              className="w-full glass rounded-xl p-4 flex items-start gap-4 text-left transition-all-fast active-scale hover:border-white/10 hover:bg-[var(--bg-tertiary)] group animate-in"
+              style={{ animationDelay: `${results.indexOf(p) * 50}ms` }}
             >
               <div 
                 className="w-10 h-10 rounded-lg flex items-center justify-center font-bold text-xs shrink-0"

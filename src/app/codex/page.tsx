@@ -4,11 +4,13 @@ import { useState } from 'react';
 import data from '@/data/philosophers.json';
 import { Philosopher, Era } from '@/lib/types';
 import PhilosopherCard from '@/components/PhilosopherCard';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, CheckCircle2 } from 'lucide-react';
+import { useProgress } from '@/lib/useProgress';
 
 export default function CodexPage() {
   const [selectedPhilosopher, setSelectedPhilosopher] = useState<Philosopher | null>(null);
   const [selectedEra, setSelectedEra] = useState<Era | null>(null);
+  const { isCompleted } = useProgress();
 
   const philosophers = data.philosophers as Philosopher[];
   const eras = data.eras as Era[];
@@ -45,7 +47,8 @@ export default function CodexPage() {
                     <button
                       key={p.id}
                       onClick={() => handlePhilosopherClick(p)}
-                      className="w-full bg-[var(--bg-secondary)] border border-[var(--border)] rounded-xl p-4 flex items-start gap-4 text-left transition-all-fast active:scale-[0.98]"
+                      className="w-full glass rounded-xl p-4 flex items-start gap-4 text-left transition-all-fast active-scale hover:border-white/10 hover:bg-[var(--bg-tertiary)] group animate-in"
+                      style={{ animationDelay: `${eraPhilosophers.indexOf(p) * 50}ms` }}
                     >
                       <div 
                         className="w-10 h-10 rounded-lg flex items-center justify-center font-bold text-xs shrink-0"
@@ -56,7 +59,12 @@ export default function CodexPage() {
                       
                       <div className="flex-1 min-w-0">
                         <div className="flex justify-between items-start">
-                          <h3 className="font-bold text-[var(--text-primary)] truncate">{p.name}</h3>
+                          <div className="flex items-center gap-2 overflow-hidden">
+                            <h3 className="font-bold text-[var(--text-primary)] truncate">{p.name}</h3>
+                            {isCompleted(p.id) && (
+                              <CheckCircle2 size={14} className="text-green-500 shrink-0" />
+                            )}
+                          </div>
                           <span className="text-[10px] text-[var(--text-muted)] shrink-0">{p.dates}</span>
                         </div>
                         <p className="text-xs text-[var(--text-secondary)] mt-1 line-clamp-1">{p.tagline}</p>

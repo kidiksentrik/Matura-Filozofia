@@ -80,52 +80,57 @@ export default function QuizPage() {
       {gameState === 'start' && (
         <div className="space-y-6">
           {/* Stats Card */}
-          <div className="bg-[var(--bg-secondary)] border border-[var(--border)] rounded-2xl p-6 flex flex-col items-center justify-center text-center">
-             <div className="w-16 h-16 bg-[var(--accent-amber)]/20 rounded-full flex items-center justify-center mb-4">
-                <Trophy className="text-[var(--accent-amber)]" size={32} />
+          <div className="glass rounded-2xl p-6 flex flex-col items-center justify-center text-center premium-shadow">
+             <div className="w-16 h-16 rounded-2xl flex items-center justify-center mb-4" style={{ background: 'linear-gradient(135deg, #D97706 0%, #92400E 100%)' }}>
+                <Trophy className="text-white" size={28} />
              </div>
-             <p className="text-[var(--text-secondary)] text-xs uppercase tracking-widest font-bold">Twoje statystyki</p>
-             <div className="flex gap-8 mt-4">
+             <p className="text-[var(--text-secondary)] text-[10px] uppercase tracking-widest font-bold">Twoje statystyki</p>
+             <div className="flex gap-10 mt-5">
                 <div>
-                   <p className="text-2xl font-bold">{stats.totalPlayed}</p>
-                   <p className="text-[10px] text-[var(--text-muted)]">GRA</p>
+                   <p className="text-3xl font-bold">{stats.totalPlayed}</p>
+                   <p className="text-[10px] text-[var(--text-muted)] mt-1 uppercase tracking-widest">Gra</p>
                 </div>
                 <div>
-                   <p className="text-2xl font-bold">{stats.totalPlayed === 0 ? 0 : Math.round((stats.totalCorrect / (stats.totalPlayed * 10)) * 100)}%</p>
-                   <p className="text-[10px] text-[var(--text-muted)]">SKUTECZNOŚĆ</p>
+                   <p className="text-3xl font-bold">{stats.totalPlayed === 0 ? 0 : Math.round((stats.totalCorrect / (stats.totalPlayed * 10)) * 100)}%</p>
+                   <p className="text-[10px] text-[var(--text-muted)] mt-1 uppercase tracking-widest">Skuteczność</p>
                 </div>
                 <div>
-                   <p className="text-2xl font-bold">{stats.lastScore}/10</p>
-                   <p className="text-[10px] text-[var(--text-muted)]">OSTATNI</p>
+                   <p className="text-3xl font-bold">{stats.lastScore}/10</p>
+                   <p className="text-[10px] text-[var(--text-muted)] mt-1 uppercase tracking-widest">Ostatni</p>
                 </div>
              </div>
           </div>
 
           {/* Mode Selection */}
           <div className="grid grid-cols-2 gap-3">
-             <button 
+             <button
                onClick={() => setMode('multiple_choice')}
-               className={`p-4 rounded-xl border transition-all-fast text-left ${
-                 mode === 'multiple_choice' ? 'border-[var(--accent-teal)] bg-[var(--accent-teal)]/10' : 'border-[var(--border)] bg-[var(--bg-secondary)]'
+               className={`p-5 rounded-2xl border transition-all-fast text-left ${
+                 mode === 'multiple_choice'
+                   ? 'border-[var(--accent-teal)] bg-[var(--accent-teal)]/10'
+                   : 'glass hover:border-white/10'
                }`}
              >
-               <p className={`font-bold ${mode === 'multiple_choice' ? 'text-[var(--accent-teal)]' : 'text-[var(--text-primary)]'}`}>4 odpowiedzi</p>
-               <p className="text-[10px] text-[var(--text-secondary)] mt-1">Wybierz jedną poprawną odpowiedź</p>
+               <p className={`font-bold text-sm ${mode === 'multiple_choice' ? 'text-[var(--accent-teal)]' : 'text-[var(--text-primary)]'}`}>4 odpowiedzi</p>
+               <p className="text-[10px] text-[var(--text-secondary)] mt-1.5 leading-snug">Wybierz jedną poprawną odpowiedź</p>
              </button>
-             <button 
+             <button
                onClick={() => setMode('quote_matching')}
-               className={`p-4 rounded-xl border transition-all-fast text-left ${
-                 mode === 'quote_matching' ? 'border-[var(--accent-purple)] bg-[var(--accent-purple)]/10' : 'border-[var(--border)] bg-[var(--bg-secondary)]'
+               className={`p-5 rounded-2xl border transition-all-fast text-left ${
+                 mode === 'quote_matching'
+                   ? 'border-[var(--accent-purple)] bg-[var(--accent-purple)]/10'
+                   : 'glass hover:border-white/10'
                }`}
              >
-               <p className={`font-bold ${mode === 'quote_matching' ? 'text-[var(--accent-purple)]' : 'text-[var(--text-primary)]'}`}>Kto to powiedział?</p>
-               <p className="text-[10px] text-[var(--text-secondary)] mt-1">Dopasuj cytat do autora</p>
+               <p className={`font-bold text-sm ${mode === 'quote_matching' ? 'text-[var(--accent-purple)]' : 'text-[var(--text-primary)]'}`}>Kto to powiedział?</p>
+               <p className="text-[10px] text-[var(--text-secondary)] mt-1.5 leading-snug">Dopasuj cytat do autora</p>
              </button>
           </div>
 
-          <button 
+          <button
             onClick={startQuiz}
-            className="w-full bg-[var(--text-primary)] text-[var(--bg-primary)] py-4 rounded-xl font-bold flex items-center justify-center gap-2 active:scale-95 transition-all"
+            className="w-full py-4 rounded-2xl font-bold flex items-center justify-center gap-2 active:scale-95 transition-all text-white"
+            style={{ background: 'linear-gradient(135deg, #0D9488 0%, #0f766e 100%)', boxShadow: '0 4px 20px rgba(13,148,136,0.4)' }}
           >
             <Play size={18} fill="currentColor" /> Rozpocznij naukę
           </button>
@@ -136,13 +141,13 @@ export default function QuizPage() {
         <div className="space-y-6">
           <div className="flex justify-between items-end mb-2">
              <span className="text-[10px] text-[var(--text-muted)] font-bold uppercase tracking-wider">Pytanie {currentQuestionIndex + 1} z 10</span>
-             <span className="text-lg font-bold text-[var(--accent-teal)]">{score}/{currentQuestionIndex + 1}</span>
+             <span className="text-lg font-bold" style={{ color: '#0D9488' }}>{score}/{currentQuestionIndex + 1}</span>
           </div>
 
           {/* Question Box */}
-          <div className="bg-[var(--bg-secondary)] border border-[var(--border)] rounded-2xl p-6 min-h-[160px] flex items-center justify-center text-center">
-            <h2 className="text-xl font-serif">
-              {mode === 'multiple_choice' ? currentQuestion.question : `„${currentQuestion.quote}”`}
+          <div className="glass-dark rounded-2xl p-7 min-h-[160px] flex items-center justify-center text-center premium-shadow">
+            <h2 className="text-xl font-serif leading-relaxed">
+              {mode === 'multiple_choice' ? currentQuestion.question : `„${currentQuestion.quote}"`}
             </h2>
           </div>
 
@@ -152,11 +157,11 @@ export default function QuizPage() {
                const isCorrect = option === currentQuestion.correct;
                const isSelected = option === selectedOption;
                
-               let variantClass = 'border-[var(--border)] bg-[var(--bg-secondary)]';
+               let variantClass = 'glass hover:border-white/10';
                if (isAnswered) {
-                 if (isCorrect) variantClass = 'border-green-500 bg-green-500/10 text-green-500';
-                 else if (isSelected) variantClass = 'border-red-500 bg-red-500/10 text-red-500';
-                 else variantClass = 'border-[var(--border)] bg-[var(--bg-secondary)] opacity-50';
+                 if (isCorrect) variantClass = 'border-green-500 bg-green-500/10 text-green-400';
+                 else if (isSelected) variantClass = 'border-red-500 bg-red-500/10 text-red-400';
+                 else variantClass = 'glass opacity-40';
                }
 
                return (
@@ -176,8 +181,10 @@ export default function QuizPage() {
 
           {/* Explanation */}
           {isAnswered && (
-            <div className={`p-4 rounded-xl text-xs animate-in fade-in slide-in-from-top-2 ${
-              selectedOption === currentQuestion.correct ? 'bg-green-500/5 text-green-400' : 'bg-red-500/5 text-red-400'
+            <div className={`p-4 rounded-xl text-xs animate-in border ${ 
+              selectedOption === currentQuestion.correct 
+                ? 'bg-green-500/5 border-green-500/20 text-green-400' 
+                : 'bg-red-500/5 border-red-500/20 text-red-400'
             }`}>
                <p className="font-bold mb-1">
                  {selectedOption === currentQuestion.correct ? 'Poprawnie! ✓' : 'Błędna odpowiedź'}
@@ -187,9 +194,10 @@ export default function QuizPage() {
           )}
 
           {isAnswered && (
-            <button 
+            <button
               onClick={nextQuestion}
-              className="w-full bg-[var(--accent-teal)] text-white py-4 rounded-xl font-bold flex items-center justify-center gap-2 active:scale-95 transition-all"
+              className="w-full py-4 rounded-2xl font-bold flex items-center justify-center gap-2 active:scale-95 transition-all text-white"
+              style={{ background: 'linear-gradient(135deg, #0D9488 0%, #0f766e 100%)', boxShadow: '0 4px 20px rgba(13,148,136,0.3)' }}
             >
               {currentQuestionIndex === 9 ? 'Zakończ quiz' : 'Następne pytanie'} <ArrowRight size={18} />
             </button>
@@ -200,10 +208,10 @@ export default function QuizPage() {
       {gameState === 'end' && (
         <div className="space-y-8 flex flex-col items-center py-10">
           <div className="relative">
-             <div className="w-32 h-32 bg-[var(--accent-teal)]/20 rounded-full flex items-center justify-center">
-                <Trophy className="text-[var(--accent-teal)]" size={64} />
+             <div className="w-36 h-36 rounded-3xl flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #0D9488 0%, #0f766e 100%)', boxShadow: '0 10px 40px rgba(13,148,136,0.4)' }}>
+                <Trophy className="text-white" size={64} />
              </div>
-             <div className="absolute -bottom-2 -right-2 bg-[var(--accent-amber)] text-black font-bold px-3 py-1 rounded-full text-sm">
+             <div className="absolute -bottom-2 -right-2 font-bold px-3 py-1 rounded-full text-sm text-white" style={{ background: 'linear-gradient(135deg, #D97706 0%, #92400E 100%)' }}>
                 {score}/10
              </div>
           </div>
@@ -214,15 +222,16 @@ export default function QuizPage() {
           </div>
 
           <div className="w-full space-y-3">
-             <button 
+             <button
                 onClick={startQuiz}
-                className="w-full bg-[var(--text-primary)] text-[var(--bg-primary)] py-4 rounded-xl font-bold flex items-center justify-center gap-2"
+                className="w-full py-4 rounded-2xl font-bold flex items-center justify-center gap-2 active:scale-95 transition-all text-white"
+                style={{ background: 'linear-gradient(135deg, #0D9488 0%, #0f766e 100%)', boxShadow: '0 4px 20px rgba(13,148,136,0.3)' }}
              >
                 <RefreshCw size={18} /> Zagraj ponownie
              </button>
-             <button 
+             <button
                 onClick={() => setGameState('start')}
-                className="w-full border border-[var(--border)] py-4 rounded-xl font-bold text-[var(--text-secondary)]"
+                className="w-full glass border border-white/5 py-4 rounded-2xl font-bold text-[var(--text-secondary)] transition-all-fast hover:border-white/10"
              >
                 Powrót do menu
              </button>

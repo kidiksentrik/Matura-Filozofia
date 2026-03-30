@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import BottomNav from "@/components/BottomNav";
+import { ProgressProvider } from "@/lib/ProgressContext";
 
 const inter = Inter({ subsets: ["latin", "latin-ext"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin", "latin-ext"], variable: "--font-playfair" });
@@ -32,11 +33,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl" className={`${inter.variable} ${playfair.variable}`}>
-      <body className="antialiased overflow-x-hidden">
-        <main className="min-h-screen pb-20">
-          {children}
-        </main>
-        <BottomNav />
+      <body className="antialiased overflow-x-hidden" suppressHydrationWarning>
+        <ProgressProvider>
+          <main className="min-h-screen pb-20">
+            {children}
+          </main>
+          <BottomNav />
+        </ProgressProvider>
       </body>
     </html>
   );
