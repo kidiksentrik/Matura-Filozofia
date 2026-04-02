@@ -4,6 +4,8 @@ import { Philosopher, Era } from '@/lib/types';
 import { useEffect, useState, useRef } from 'react';
 import { X, AlertTriangle, Quote as QuoteIcon, CheckCircle2, ChevronDown, ChevronUp } from 'lucide-react';
 import { useProgress } from '@/lib/useProgress';
+import { useNotes } from '@/lib/useNotes';
+import { StickyNote, Save } from 'lucide-react';
 
 interface PhilosopherCardProps {
   philosopher: Philosopher | null;
@@ -15,7 +17,22 @@ export default function PhilosopherCard({ philosopher, onClose, era }: Philosoph
   const [isVisible, setIsVisible] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
   const { isCompleted, toggleCompleted } = useProgress();
+  const { getNote, updateNote } = useNotes();
+  const [localNote, setLocalNote] = useState('');
   const contentRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (philosopher) {
+      setLocalNote(getNote(philosopher.id));
+    }
+  }, [philosopher, getNote]);
+
+  const handleNoteChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    const newVal = e.target.value;
+    setLocalNote(newVal);
+    // Debounced or simple auto-save on change? Let's do simple for now, it's just localStorage.
+    updateNote(philosopher!.id, newVal);
+  };
 
   const hasExpansion = philosopher && 
     philosopher.description_full && 
@@ -211,6 +228,28 @@ export default function PhilosopherCard({ philosopher, onClose, era }: Philosoph
                 </div>
               </section>
             )}
+
+            {/* User Notes Section */}
+            <section className="mt-8 pt-8 border-t border-white/5">
+              <h3 className="text-xl font-serif mb-4 flex items-center gap-3">
+                <div className="p-1.5 rounded-lg bg-indigo-500/10 text-indigo-400">
+                  <StickyNote size={18} />
+                </div>
+                Moje notatki
+              </h3>
+              <div className="relative group">
+                <textarea
+                  value={localNote}
+                  onChange={handleNoteChange}
+                  placeholder="Dodaj własne spostrzeżenia, dodatkowe informacje lub mnemotechniki..."
+                  className="w-full min-h-[120px] p-4 rounded-2xl bg-white/5 border border-white/10 text-[13px] text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:outline-none focus:ring-1 focus:ring-indigo-500/50 focus:border-indigo-500/30 transition-all resize-none"
+                />
+                <div className="absolute right-3 bottom-3 opacity-0 group-focus-within:opacity-100 transition-opacity flex items-center gap-1.5 text-[10px] font-medium text-indigo-400/60 pointer-events-none">
+                  <Save size={10} />
+                  <span>Zapisano automatycznie</span>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </div>
