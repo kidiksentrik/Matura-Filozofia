@@ -131,8 +131,8 @@ export default function PhilosopherCard({ philosopher, onClose, era }: Philosoph
 
                 {isAddingNote && (
                   <div className="glass-indigo p-4 rounded-xl space-y-3 animate-in-slide-down">
-                    <input type="text" placeholder="Tytuł notatki..." value={newNoteTitle} onChange={(e) => setNewNoteTitle(e.target.value)} className="w-full bg-white/5 border border-white/10 rounded-lg p-2 text-xs font-bold text-[var(--text-primary)] focus:outline-none focus:border-indigo-500/50" />
-                    <textarea placeholder="Treść..." value={newNoteBody} onChange={(e) => setNewNoteBody(e.target.value)} className="w-full bg-white/5 border border-white/10 rounded-lg p-2 text-xs text-[var(--text-secondary)] min-h-[80px] focus:outline-none focus:border-indigo-500/50 resize-none" />
+                    <input type="text" placeholder="Tytuł notatki..." value={newNoteTitle} onChange={(e) => setNewNoteTitle(e.target.value)} className="w-full bg-white/5 border border-white/10 rounded-lg p-3 text-sm font-bold text-[var(--text-primary)] focus:outline-none focus:border-indigo-500/50" />
+                    <textarea placeholder="Treść..." value={newNoteBody} onChange={(e) => setNewNoteBody(e.target.value)} className="w-full bg-white/5 border border-white/10 rounded-lg p-3 text-sm text-[var(--text-secondary)] min-h-[100px] focus:outline-none focus:border-indigo-500/50 resize-none" />
                     <div className="flex justify-end gap-2">
                       <button onClick={() => setIsAddingNote(false)} className="text-[10px] text-[var(--text-muted)] px-2 py-1">Anuluj</button>
                       <button onClick={() => { addUserNote(philosopher.id, newNoteTitle, newNoteBody); resetEditStates(); }} className="bg-indigo-500 text-white text-[10px] font-bold px-3 py-1 rounded-lg">Zapisz</button>
@@ -145,8 +145,8 @@ export default function PhilosopherCard({ philosopher, onClose, era }: Philosoph
                     <div key={note.id} className="glass p-3 rounded-xl relative group">
                       {editingNoteId === note.id ? (
                         <div className="space-y-2">
-                          <input type="text" value={newNoteTitle} onChange={(e) => setNewNoteTitle(e.target.value)} className="w-full bg-white/5 border border-white/10 rounded-lg p-2 text-xs font-bold" />
-                          <textarea value={newNoteBody} onChange={(e) => setNewNoteBody(e.target.value)} className="w-full bg-white/5 border border-white/10 rounded-lg p-2 text-xs min-h-[60px]" />
+                          <input type="text" value={newNoteTitle} onChange={(e) => setNewNoteTitle(e.target.value)} className="w-full bg-white/5 border border-white/10 rounded-lg p-2.5 text-sm font-bold" />
+                          <textarea value={newNoteBody} onChange={(e) => setNewNoteBody(e.target.value)} className="w-full bg-white/5 border border-white/10 rounded-lg p-2.5 text-sm min-h-[80px]" />
                           <div className="flex justify-end gap-2">
                             <button onClick={() => setEditingNoteId(null)} className="text-[10px] text-[var(--text-muted)]">Anuluj</button>
                             <button onClick={() => { updateUserNote(philosopher.id, note.id, newNoteTitle, newNoteBody); setEditingNoteId(null); }} className="text-indigo-400 text-[10px] font-bold">Zapisz</button>
@@ -154,8 +154,8 @@ export default function PhilosopherCard({ philosopher, onClose, era }: Philosoph
                         </div>
                       ) : (
                         <>
-                          <h5 className="text-[12px] font-bold text-[var(--text-primary)] pr-16">{note.title || "Bez tytułu"}</h5>
-                          <p className="text-[11px] text-[var(--text-secondary)] mt-1 whitespace-pre-wrap">{note.body}</p>
+                          <h5 className="text-sm font-bold text-[var(--text-primary)] pr-20">{note.title || "Bez tytułu"}</h5>
+                          <p className="text-[13px] leading-relaxed text-[var(--text-secondary)] mt-1.5 whitespace-pre-wrap">{note.body}</p>
                           <div className="absolute top-2 right-1.5 flex gap-0.5 opacity-40 hover:opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-all">
                             <button onClick={() => { setEditingNoteId(note.id); setNewNoteTitle(note.title); setNewNoteBody(note.body); }} className="p-2 rounded-full hover:bg-white/10 active:bg-white/20 text-[var(--text-muted)] hover:text-indigo-400 transition-colors"><Edit2 size={16} /></button>
                             <button onClick={() => setNoteToDeleteId(note.id)} className="p-2 rounded-full hover:bg-white/10 active:bg-white/20 text-[var(--text-muted)] hover:text-red-400 transition-colors"><Trash2 size={16} /></button>
