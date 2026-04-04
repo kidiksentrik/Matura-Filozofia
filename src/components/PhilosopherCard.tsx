@@ -28,6 +28,7 @@ export default function PhilosopherCard({ philosopher, onClose, era }: Philosoph
   const [editingSection, setEditingSection] = useState<'concepts' | 'quotes' | 'works' | null>(null);
   const [tempData, setTempData] = useState<any>(null);
   const [showConfirmClose, setShowConfirmClose] = useState(false);
+  const [noteToDeleteId, setNoteToDeleteId] = useState<string | null>(null);
   
   const contentRef = useRef<HTMLDivElement>(null);
 
@@ -157,7 +158,7 @@ export default function PhilosopherCard({ philosopher, onClose, era }: Philosoph
                           <p className="text-[11px] text-[var(--text-secondary)] mt-1 whitespace-pre-wrap">{note.body}</p>
                           <div className="absolute top-2 right-1.5 flex gap-0.5 opacity-40 hover:opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-all">
                             <button onClick={() => { setEditingNoteId(note.id); setNewNoteTitle(note.title); setNewNoteBody(note.body); }} className="p-2 rounded-full hover:bg-white/10 active:bg-white/20 text-[var(--text-muted)] hover:text-indigo-400 transition-colors"><Edit2 size={16} /></button>
-                            <button onClick={() => deleteUserNote(philosopher.id, note.id)} className="p-2 rounded-full hover:bg-white/10 active:bg-white/20 text-[var(--text-muted)] hover:text-red-400 transition-colors"><Trash2 size={16} /></button>
+                            <button onClick={() => setNoteToDeleteId(note.id)} className="p-2 rounded-full hover:bg-white/10 active:bg-white/20 text-[var(--text-muted)] hover:text-red-400 transition-colors"><Trash2 size={16} /></button>
                           </div>
                         </>
                       )}
@@ -294,6 +295,23 @@ export default function PhilosopherCard({ philosopher, onClose, era }: Philosoph
           </div>
         </div>
       </div>
+
+      {noteToDeleteId && (
+        <div className="absolute inset-0 z-[60] flex items-center justify-center px-6">
+          <div className="absolute inset-0 bg-black/80 backdrop-blur-md" onClick={() => setNoteToDeleteId(null)} />
+          <div className="relative glass p-6 rounded-2xl w-full max-w-xs text-center space-y-4 shadow-2xl border border-white/10 animate-in-scale">
+            <div className="w-12 h-12 rounded-full bg-red-500/20 text-red-500 flex items-center justify-center mx-auto"><AlertTriangle size={28} /></div>
+            <div>
+              <h3 className="text-lg font-bold">Usuwanie notatki</h3>
+              <p className="text-xs text-[var(--text-secondary)] mt-1">Czy na pewno chcesz trwale usunąć tę notatkę? Tej operacji nie można cofnąć.</p>
+            </div>
+            <div className="flex gap-2">
+              <button onClick={() => setNoteToDeleteId(null)} className="flex-1 p-3 rounded-xl bg-[var(--bg-tertiary)] text-xs font-bold">Anuluj</button>
+              <button onClick={() => { deleteUserNote(philosopher.id, noteToDeleteId); setNoteToDeleteId(null); }} className="flex-1 p-3 rounded-xl bg-red-500/20 text-red-500 text-xs font-bold">Usuń</button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {showConfirmClose && (
         <div className="absolute inset-0 z-[60] flex items-center justify-center px-6">
