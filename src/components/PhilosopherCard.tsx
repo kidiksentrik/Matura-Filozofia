@@ -153,11 +153,11 @@ export default function PhilosopherCard({ philosopher, onClose, era }: Philosoph
                         </div>
                       ) : (
                         <>
-                          <h5 className="text-[12px] font-bold text-[var(--text-primary)] pr-12">{note.title || "Bez tytułu"}</h5>
+                          <h5 className="text-[12px] font-bold text-[var(--text-primary)] pr-16">{note.title || "Bez tytułu"}</h5>
                           <p className="text-[11px] text-[var(--text-secondary)] mt-1 whitespace-pre-wrap">{note.body}</p>
-                          <div className="absolute top-2 right-2 flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                            <button onClick={() => { setEditingNoteId(note.id); setNewNoteTitle(note.title); setNewNoteBody(note.body); }} className="p-1 hover:text-indigo-400 text-[var(--text-muted)]"><Edit2 size={12} /></button>
-                            <button onClick={() => deleteUserNote(philosopher.id, note.id)} className="p-1 hover:text-red-400 text-[var(--text-muted)]"><Trash2 size={12} /></button>
+                          <div className="absolute top-2 right-1.5 flex gap-0.5 opacity-40 hover:opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-all">
+                            <button onClick={() => { setEditingNoteId(note.id); setNewNoteTitle(note.title); setNewNoteBody(note.body); }} className="p-2 rounded-full hover:bg-white/10 active:bg-white/20 text-[var(--text-muted)] hover:text-indigo-400 transition-colors"><Edit2 size={16} /></button>
+                            <button onClick={() => deleteUserNote(philosopher.id, note.id)} className="p-2 rounded-full hover:bg-white/10 active:bg-white/20 text-[var(--text-muted)] hover:text-red-400 transition-colors"><Trash2 size={16} /></button>
                           </div>
                         </>
                       )}
@@ -191,7 +191,7 @@ export default function PhilosopherCard({ philosopher, onClose, era }: Philosoph
                   <span className="w-1.5 h-6 rounded-full" style={{ backgroundColor: era.color, boxShadow: `0 0 10px ${era.color}66` }}></span>
                   Kluczowe pojęcia
                 </h3>
-                <button onClick={() => { setEditingSection('concepts'); setTempData([...currentConcepts]); }} className="p-1.5 rounded-lg hover:bg-white/5 text-[var(--text-muted)] transition-all"><Edit2 size={16} /></button>
+                <button onClick={() => { setEditingSection('concepts'); setTempData([...currentConcepts]); }} className="p-2 rounded-xl bg-white/5 hover:bg-white/10 active:bg-white/20 text-[var(--text-muted)] hover:text-indigo-400 transition-all flex items-center justify-center"><Edit2 size={18} /></button>
               </div>
 
               {editingSection === 'concepts' ? (
@@ -224,7 +224,7 @@ export default function PhilosopherCard({ philosopher, onClose, era }: Philosoph
             <section>
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-lg font-serif">Główne dzieła</h3>
-                <button onClick={() => { setEditingSection('works'); setTempData([...currentWorks]); }} className="p-1 hover:text-indigo-400 text-[var(--text-muted)]"><Edit2 size={14} /></button>
+                <button onClick={() => { setEditingSection('works'); setTempData([...currentWorks]); }} className="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 active:bg-white/20 text-[var(--text-muted)] hover:text-indigo-400 transition-all"><Edit2 size={16} /></button>
               </div>
               {editingSection === 'works' ? (
                 <div className="space-y-2 animate-in-fade">
@@ -261,7 +261,7 @@ export default function PhilosopherCard({ philosopher, onClose, era }: Philosoph
               <section>
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-lg font-serif">Cytaty</h3>
-                  <button onClick={() => { setEditingSection('quotes'); setTempData([...currentQuotes]); }} className="text-[var(--text-muted)] hover:text-indigo-400"><Edit2 size={14} /></button>
+                  <button onClick={() => { setEditingSection('quotes'); setTempData([...currentQuotes]); }} className="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 active:bg-white/20 text-[var(--text-muted)] hover:text-indigo-400 transition-all"><Edit2 size={16} /></button>
                 </div>
                 {editingSection === 'quotes' ? (
                   <div className="space-y-4 animate-in-fade">
