@@ -30,7 +30,7 @@ export default function SyncBanner() {
   if (!show) return null;
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-[100] bg-indigo-600 px-4 py-2.5 shadow-lg animate-in-slide-down">
+    <div className="fixed top-0 left-0 right-0 z-[100] bg-indigo-600 px-4 py-2.5 pt-[env(safe-area-inset-top)] shadow-lg animate-in-slide-down">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between gap-3">
         <div className="flex items-center gap-2.5">
           <div className="p-1.5 bg-white/20 rounded-lg backdrop-blur-sm">
