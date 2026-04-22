@@ -29,8 +29,15 @@ export default function QuizPage() {
       ? data.quiz.multiple_choice 
       : data.quiz.quote_matching;
     
-    // Shuffle and pick 10
-    const shuffled = [...rawQuestions].sort(() => 0.5 - Math.random()).slice(0, 10);
+    // Shuffle and pick 10, and also shuffle the options for each question
+    const shuffled = [...rawQuestions]
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 10)
+      .map(q => ({
+        ...q,
+        options: [...q.options].sort(() => 0.5 - Math.random())
+      }));
+
     setQuestions(shuffled);
     setCurrentQuestionIndex(0);
     setScore(0);

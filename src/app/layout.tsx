@@ -4,8 +4,6 @@ import "./globals.css";
 import BottomNav from "@/components/BottomNav";
 import { ProgressProvider } from "@/lib/ProgressContext";
 import Providers from "@/components/Providers";
-import SyncBanner from "@/components/SyncBanner";
-import AuthModal from "@/components/AuthModal";
 
 const inter = Inter({ subsets: ["latin", "latin-ext"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin", "latin-ext"], variable: "--font-playfair" });
@@ -35,11 +33,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pl" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="pl" className={`${inter.variable} ${playfair.variable}`} suppressHydrationWarning>
       <body className="antialiased overflow-x-hidden" suppressHydrationWarning>
         <Providers>
-          <SyncBanner />
-          <AuthModal />
           <ProgressProvider>
             <main className="min-h-screen pb-20">
               {children}
