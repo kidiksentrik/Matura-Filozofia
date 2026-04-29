@@ -4,7 +4,7 @@ import { useState } from 'react';
 import data from '@/data/philosophers.json';
 import { Philosopher, Era } from '@/lib/types';
 import PhilosopherCard from '@/components/PhilosopherCard';
-import { ChevronRight, CheckCircle2 } from 'lucide-react';
+import { ChevronRight, CheckCircle2, AlertTriangle } from 'lucide-react';
 import { useProgress } from '@/lib/useProgress';
 import { useNotes } from '@/lib/useNotes';
 
@@ -85,6 +85,18 @@ export default function CodexPage() {
                         
                         <ChevronRight size={16} className="text-[var(--text-muted)] self-center" />
                       </div>
+                      
+                      {p.matura_tip && (
+                        <div className="pt-4 border-t border-white/5">
+                          <div className="bg-amber-500/10 border border-amber-500/20 p-3 rounded-lg flex gap-3 text-[11px] text-amber-200/90">
+                            <AlertTriangle className="text-amber-500 shrink-0" size={16} />
+                            <div>
+                              <strong className="block mb-0.5 text-amber-400">Wskazówka maturalna</strong>
+                              {p.matura_tip}
+                            </div>
+                          </div>
+                        </div>
+                      )}
 
                       {concepts.length > 0 && (
                         <div className="pt-4 border-t border-white/5 space-y-3">

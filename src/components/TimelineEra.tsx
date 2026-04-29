@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { Philosopher, Era } from '@/lib/types';
 import { useProgress } from '@/lib/useProgress';
 import { CheckCircle2 } from 'lucide-react';
@@ -10,12 +11,18 @@ interface TimelineEraProps {
 
 export default function TimelineEra({ era, philosophers, onPhilosopherClick }: TimelineEraProps) {
   const { isCompleted } = useProgress();
+  const [mounted, setMounted] = useState(false);
+  
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   return (
     <div className="mb-12 px-4 group/era">
-      <div className="flex items-baseline justify-between mb-5 border-l-4 pl-4 transition-all duration-500 group-hover/era:pl-6" style={{ borderColor: era.color }}>
+      <div className="flex items-baseline justify-between mb-5 border-l-4 pl-4 transition-all duration-500 group-hover/era:pl-6" style={mounted ? { borderColor: era.color } : {}}>
         <div>
           <h2 className="text-xl font-serif text-[var(--text-primary)] tracking-tight">{era.label}</h2>
-          <div className="h-0.5 w-8 mt-1 rounded-full opacity-50 group-hover/era:w-12 transition-all duration-500" style={{ backgroundColor: era.color }}></div>
+          <div className="h-0.5 w-8 mt-1 rounded-full opacity-50 group-hover/era:w-12 transition-all duration-500" style={mounted ? { backgroundColor: era.color } : {}}></div>
         </div>
         <span className="text-[10px] font-bold uppercase tracking-widest text-[var(--text-muted)] bg-[var(--bg-secondary)] px-2 py-1 rounded-md border border-[var(--border)]">
           {era.range}
@@ -44,9 +51,9 @@ export default function TimelineEra({ era, philosophers, onPhilosopherClick }: T
                     : 'hover:border-[var(--era-color)]'
                   }`}
                   style={{
-                    backgroundColor: isCore ? `${era.color}` : 'var(--bg-secondary)',
-                    borderColor: isCore ? 'transparent' : 'var(--border)',
-                    color: isCore ? '#fff' : 'var(--text-secondary)',
+                    backgroundColor: mounted && isCore ? `${era.color}` : 'var(--bg-secondary)',
+                    borderColor: mounted && isCore ? 'transparent' : 'var(--border)',
+                    color: mounted && isCore ? '#fff' : 'var(--text-secondary)',
                     '--era-color': era.color,
                     '--era-color-alpha': `${era.color}44`
                   } as React.CSSProperties}
